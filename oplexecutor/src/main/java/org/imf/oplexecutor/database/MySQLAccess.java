@@ -1,73 +1,75 @@
 package org.imf.oplexecutor.database;
 
 import java.sql.*;
+import java.util.ArrayList;
+import java.util.List;
 
 import org.imf.oplexecutor.model.Opl;
 
 public class MySQLAccess {
-	
-	
-
-	/*public static void main(String[] args) {
-		// TODO Auto-generated method stub
-
-	}*/
-	//Connection connection;
-	
+		
 	public MySQLAccess () {}
 	
-	//WORKING:
-	public boolean connect() {
+	private Connection conn = null;
+	
+	public void connect(){
+		String driver = "com.mysql.jdbc.Driver";
+		String database = "jdbc:mysql://localhost:3306/TransformDatabase";
+		String username = "java";
+		String password = "java";
 		try {
-			//Class.forName("com.mysql.jdbc.Driver").newInstance();
-			//String conncectionCommand = "jdbc:mysql://127.0.0.1:3306/TransformDatabase&user=java&password=java";
-			//connection = DriverManager.getConnection(conncectionCommand);
-			Class.forName("com.mysql.jdbc.Driver");
-			Connection conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/TransformDatabase","java","java");
-			return true;
+			Class.forName(driver);
+			conn = DriverManager.getConnection(database,username,password);
 		}
-		catch (Exception ex) {
-			ex.printStackTrace();
-			System.out.print("false");
-			return false;
+		catch(Exception e) {
+			System.out.println("Connection to Database failed");
 		}
 	}
+		
 	//Connect to Database and insert Data in opl table
-	public void post_opl(Opl o) {
+	public String post_opl(Opl o) {
 		String oplId = o.getOplId();
+		String oplPath = o.getOplPath();
 		String annotation = o.getAnnotation();
 		String issueDate = o.getIssueDate();
 		String cplId = o.getCplId();
+		String cplPath = o.getCplPath();
 		try{
-			
-			System.out.println(oplId);
 			Class.forName("com.mysql.jdbc.Driver");
 			Connection conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/TransformDatabase","java","java");	
-			PreparedStatement posted = conn.prepareStatement("INSERT INTO opl(oplId,annotation,issueDate, cplId) VALUES('"+oplId+"','"+annotation+"','"+issueDate+"','"+cplId+"')");
+			PreparedStatement posted = conn.prepareStatement("INSERT INTO opl(oplId,oplPath,annotation,issueDate, cplId,cplPath) VALUES('"+oplId+"','"+oplPath+"','"+annotation+"','"+issueDate+"','"+cplId+"','"+cplPath+"')");
 			posted.executeUpdate();
+			return "created";
 		} 
 		catch(Exception e) {
 			e.printStackTrace();
-		}
-		finally {
-			System.out.println("opl insert completed");
+			return "failure";
 		}
 	}
 	
-	//Connect to Database an insert data in task table
-	public void post_task(String oplId, String annotation, String oplPath, String cplId, String cplPath) {
+	public ArrayList<Opl> getAllOpls() {
+		ArrayList<Opl> opls = new ArrayList<Opl>();
 		try{
-			System.out.println(oplId);
-			Class.forName("com.mysql.jdbc.Driver");
-			Connection conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/TransformDatabase","java","java");	
-			PreparedStatement posted = conn.prepareStatement("INSERT INTO task(oplId,annotation,oplPath,cplId,cplPath) VALUES('"+oplId+"','"+annotation+"','"+oplPath+"','"+cplId+"','"+cplPath+"')");
-			posted.executeUpdate();
-		} 
+			String sqlQuery = "SELECT id,oplId,oplPath,annotation,issueDate,cplId,cplPath FROM opl";
+			PreparedStatement ps = conn.prepareStatement(sqlQuery);
+			ResultSet rs = ps.executeQuery();
+			while (rs.next()) {
+				Opl o = new Opl();
+				o.setId(rs.getInt("id"));
+				o.setOplId(rs.getString("oplId"));
+				o.setOplPath(rs.getString("oplPath"));
+				o.setAnnotation(rs.getString("annotation"));
+				o.setIssueDate(rs.getString("issueDate"));
+				o.setCplId(rs.getString("cplId"));
+				o.setCplPath(rs.getString("cplPath"));
+				opls.add(o);
+			}	
+			ps.close();
+			rs.close();
+		}
 		catch(Exception e) {
-			e.printStackTrace();
+			System.out.println("Error");
 		}
-		finally {
-			System.out.println("task insert completed");
-		}
+		return opls;
 	}
 }

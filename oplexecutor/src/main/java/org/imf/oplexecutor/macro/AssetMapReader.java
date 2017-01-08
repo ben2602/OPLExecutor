@@ -10,7 +10,10 @@ import org.jdom2.input.SAXBuilder;
 //Opens AssetMap-File to look for the CPL-Filename and starts CPL-Finder
 public class AssetMapReader {
 		private String amPath;
+		private String cplPath;
 	
+		
+
 		public AssetMapReader(String amPath) {
 			this.amPath = amPath;
 		}
@@ -38,7 +41,7 @@ public class AssetMapReader {
 								
 								//Starting CPL Finder
 								CPLFinder cplf = new CPLFinder(amPath, fc.getName());
-								cplf.find();
+								cplPath=cplf.find();
 							}
 						}
 					}
@@ -48,6 +51,14 @@ public class AssetMapReader {
 					// TODO Auto-generated catch block
 					e.printStackTrace();
 			}
+		}
+		
+		public String getCplPath() {
+			return cplPath;
+		}
+
+		public void setCplPath(String cplPath) {
+			this.cplPath = cplPath;
 		}
 }
 
