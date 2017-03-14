@@ -2,7 +2,8 @@ package org.imf.oplexecutor.macro;
 
 import java.io.File;
 
-import org.imf.oplexecutor.database.MySQLAccess;
+import org.imf.oplexecutor.exception.DataException;
+import org.imf.oplexecutor.fims.bms.ErrorCodeType;
 import org.imf.oplexecutor.model.Opl;
 import org.jdom2.Document;
 import org.jdom2.Element;
@@ -15,22 +16,19 @@ public class OPLReader {
 	private String annotation;
 	private String issueDate;
 	private String cplId;
-	
-	private String oplpath;
-	
+		
 	public OPLReader() {}
 	
-	public void getOPLData(String oplpath) {
+	public Opl getOPLData(String oplpath) {
 		
 		Document doc = null;
-		
+				
 		File f = new File(oplpath);
-		
+				
 		//Starting AssetMapFinder
-		/*AssetMapFinder amf = new AssetMapFinder(f.getParent());
+		AssetMapFinder amf = new AssetMapFinder(f.getParent());
 		String ampath = amf.find();
 		System.out.println("Pfad: " + ampath);
-		*/
 		
 		//Reading OPL and setting values
 		try {
@@ -45,11 +43,9 @@ public class OPLReader {
 					annotation = OutputProfileList.getChildText("Annotation", null);
 					issueDate = OutputProfileList.getChildText("IssueDate", null);
 					cplId = OutputProfileList.getChildText("CompositionPlaylistId", null);
-					
-					//System.out.println(oplId + annotation + issueDate + cplId);
-					
-					//Opl o = new Opl(oplId, annotation, issueDate, cplId);
-					
+										
+					Opl o = new Opl(oplId, oplpath, annotation, issueDate, cplId);
+					return o;
 					//Writing Data to Database into opl table
 					//MySQLAccess DB = new MySQLAccess();
 					//DB.post_opl(o);
@@ -58,10 +54,8 @@ public class OPLReader {
 		catch (Exception e) {
 				// TODO Auto-generated catch block
 				e.printStackTrace();
+				throw new DataException(ErrorCodeType.DAT_S_00_0004, "Missing required service metadata in request.", e.getMessage());
 		}
-		
-		
-		
 		//Starting AssetMapReader
 		/*AssetMapReader amr = new AssetMapReader(ampath);
 		amr.getCplFileName(cplId);

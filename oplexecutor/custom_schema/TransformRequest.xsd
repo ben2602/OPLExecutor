@@ -1,0 +1,125 @@
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="transformRequest">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="transformJob">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="resourceID">
+                <xs:complexType>
+                  <xs:simpleContent>
+                    <xs:extension base="xs:string">
+                      <xs:attribute type="xs:byte" name="minOccurs"/>
+                      <xs:attribute type="xs:byte" name="maxOccurs"/>
+                    </xs:extension>
+                  </xs:simpleContent>
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="location">
+                <xs:complexType>
+                  <xs:simpleContent>
+                    <xs:extension base="xs:string">
+                      <xs:attribute type="xs:byte" name="minOccurs"/>
+                      <xs:attribute type="xs:byte" name="maxOccurs"/>
+                    </xs:extension>
+                  </xs:simpleContent>
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="resourceCreationDate">
+                <xs:complexType>
+                  <xs:simpleContent>
+                    <xs:extension base="xs:string">
+                      <xs:attribute type="xs:byte" name="minOccurs"/>
+                      <xs:attribute type="xs:byte" name="maxOccurs"/>
+                    </xs:extension>
+                  </xs:simpleContent>
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="status">
+                <xs:complexType>
+                  <xs:simpleContent>
+                    <xs:extension base="xs:string">
+                      <xs:attribute type="xs:byte" name="minOccurs"/>
+                      <xs:attribute type="xs:byte" name="maxOccurs"/>
+                    </xs:extension>
+                  </xs:simpleContent>
+                </xs:complexType>
+              </xs:element>
+              <xs:element type="xs:string" name="statusDescription"/>
+              <xs:element type="xs:string" name="serviceProviderJobID"/>
+              <xs:element type="xs:string" name="queueReference"/>
+              <xs:element type="xs:string" name="tasks"/>
+              <xs:element name="operationName">
+                <xs:complexType>
+                  <xs:simpleContent>
+                    <xs:extension base="xs:string">
+                      <xs:attribute type="xs:byte" name="minOccurs"/>
+                      <xs:attribute type="xs:byte" name="maxOccurs"/>
+                    </xs:extension>
+                  </xs:simpleContent>
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="profiles">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="transformProfile">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element name="resourceID">
+                            <xs:complexType>
+                              <xs:simpleContent>
+                                <xs:extension base="xs:string">
+                                  <xs:attribute type="xs:byte" name="minOccurs"/>
+                                  <xs:attribute type="xs:byte" name="maxOccurs"/>
+                                </xs:extension>
+                              </xs:simpleContent>
+                            </xs:complexType>
+                          </xs:element>
+                          <xs:element name="transformAtom">
+                            <xs:complexType>
+                              <xs:simpleContent>
+                                <xs:extension base="xs:string">
+                                  <xs:attribute type="xs:byte" name="minOccurs"/>
+                                  <xs:attribute type="xs:byte" name="maxOccurs"/>
+                                </xs:extension>
+                              </xs:simpleContent>
+                            </xs:complexType>
+                          </xs:element>
+                          <xs:element name="transferAtom">
+                            <xs:complexType>
+                              <xs:sequence>
+                                <xs:element name="destination">
+                                  <xs:complexType>
+                                    <xs:simpleContent>
+                                      <xs:extension base="xs:string">
+                                        <xs:attribute type="xs:byte" name="minOccurs"/>
+                                        <xs:attribute type="xs:byte" name="maxOccurs"/>
+                                      </xs:extension>
+                                    </xs:simpleContent>
+                                  </xs:complexType>
+                                </xs:element>
+                              </xs:sequence>
+                              <xs:attribute type="xs:byte" name="minOccurs"/>
+                              <xs:attribute type="xs:string" name="maxOccurs"/>
+                            </xs:complexType>
+                          </xs:element>
+                        </xs:sequence>
+                        <xs:attribute type="xs:string" name="description"/>
+                        <xs:attribute type="xs:string" name="name"/>
+                        <xs:attribute type="xs:byte" name="minOccurs"/>
+                        <xs:attribute type="xs:string" name="maxOccurs"/>
+                      </xs:complexType>
+                    </xs:element>
+                  </xs:sequence>
+                  <xs:attribute type="xs:byte" name="minOccurs"/>
+                  <xs:attribute type="xs:byte" name="maxOccurs"/>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+      <xs:attribute type="xs:string" name="version"/>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

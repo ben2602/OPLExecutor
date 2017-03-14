@@ -49,7 +49,6 @@ public class CPLFinder {
 			return "CPL-File not found";
 		}
 		else {
-			System.out.print(cplpath);
 			return cplpath;
 		}
 		

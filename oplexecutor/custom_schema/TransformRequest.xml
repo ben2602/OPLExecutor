@@ -1,0 +1,22 @@
+<transformRequest version="" xmlns:tfms="http://transformmedia.fims.tv">
+	<transformJob>
+ 		<resourceID minOccurs="1" maxOccurs="1"></resourceID>
+ 		<location minOccurs="1" maxOccurs="1"></location>
+ 		<resourceCreationDate minOccurs="0" maxOccurs="1"></resourceCreationDate>
+ 		<status minOccurs="0" maxOccurs="1"></status>
+ 		<statusDescription></statusDescription>
+ 		<serviceProviderJobID></serviceProviderJobID>
+ 		<queueReference></queueReference>
+ 		<tasks></tasks>
+ 		<operationName minOccurs="1" maxOccurs="1"></operationName>
+ 		<profiles minOccurs="1" maxOccurs="1">
+ 			<transformProfile description="" name="" minOccurs="1" maxOccurs="unbounded">
+  				<resourceID minOccurs="1" maxOccurs="1"></resourceID>
+  				<transformAtom minOccurs="1" maxOccurs="1"></transformAtom>
+  				<transferAtom minOccurs="1" maxOccurs="unbounded">
+  					<destination minOccurs="1" maxOccurs="1"></destination>
+ 		 		</transferAtom>
+			</transformProfile>
+		</profiles>
+	</transformJob>
+</transformRequest>

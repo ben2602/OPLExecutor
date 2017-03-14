@@ -1,0 +1,981 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bms:queryJobResponse version="1_2_0" xmlns:bms="http://base.fims.tv" xmlns:desc="http://description.fims.tv" xmlns:tim="http://baseTime.fims.tv" xmlns:tns="http://www.smpte-ra.org/schemas/st2071/2015/service" xmlns:tns1="http://www.smpte-ra.org/schemas/st2071/2015/identity" xmlns:tns2="http://www.smpte-ra.org/schemas/st2071/2015/types" xmlns:tns3="http://www.smpte-ra.org/schemas/st2071/2015/query" xmlns:tns4="http://www.smpte-ra.org/schemas/st2071/2015/media" xmlns:tns5="http://www.smpte-ra.org/schemas/st2071/2015/event" xmlns:tns6="http://www.smpte-ra.org/schemas/st2071/2015/mode" xmlns:xml="http://www.w3.org/XML/1998/namespace" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://base.fims.tv baseMediaService-V1_2_0.xsd ">
+  <bms:jobs>
+    <bms:job>
+      <bms:resourceID>bms:resourceID</bms:resourceID>
+      <bms:revisionID>NMTOKEN</bms:revisionID>
+      <bms:location>http://tempuri.org</bms:location>
+      <bms:resourceCreationDate>2001-12-31T12:00:00</bms:resourceCreationDate>
+      <bms:resourceModifiedDate>2001-12-31T12:00:00</bms:resourceModifiedDate>
+      <bms:serviceGeneratedElement>true</bms:serviceGeneratedElement>
+      <bms:isFullyPopulated>true</bms:isFullyPopulated>
+      <bms:notifyAt>
+        <bms:replyTo>http://tempuri.org</bms:replyTo>
+        <bms:faultTo>http://tempuri.org</bms:faultTo>
+      </bms:notifyAt>
+      <bms:ExtensionGroup/>
+      <bms:ExtensionAttributes/>
+      <bms:status>new</bms:status>
+      <bms:statusDescription>bms:statusDescription</bms:statusDescription>
+      <bms:serviceProviderJobID>bms:serviceProviderJobID</bms:serviceProviderJobID>
+      <bms:queueReference>
+        <bms:resourceID>bms:resourceID</bms:resourceID>
+        <bms:revisionID>NMTOKEN</bms:revisionID>
+        <bms:location>http://tempuri.org</bms:location>
+        <bms:resourceCreationDate>2001-12-31T12:00:00</bms:resourceCreationDate>
+        <bms:resourceModifiedDate>2001-12-31T12:00:00</bms:resourceModifiedDate>
+        <bms:serviceGeneratedElement>true</bms:serviceGeneratedElement>
+        <bms:isFullyPopulated>true</bms:isFullyPopulated>
+        <bms:notifyAt>
+          <bms:replyTo>http://tempuri.org</bms:replyTo>
+          <bms:faultTo>http://tempuri.org</bms:faultTo>
+        </bms:notifyAt>
+        <bms:ExtensionGroup/>
+        <bms:ExtensionAttributes/>
+        <bms:status>started</bms:status>
+        <bms:statusDescription>bms:statusDescription</bms:statusDescription>
+        <bms:length>0</bms:length>
+        <bms:availability>true</bms:availability>
+        <bms:estimatedTotalCompletionDuration>P1D</bms:estimatedTotalCompletionDuration>
+        <bms:jobs/>
+      </bms:queueReference>
+      <bms:tasks/>
+      <bms:operationName>bms:operationName</bms:operationName>
+      <bms:bmObjects>
+        <bms:bmObject>
+          <bms:resourceID>bms:resourceID</bms:resourceID>
+          <bms:revisionID>NMTOKEN</bms:revisionID>
+          <bms:location>http://tempuri.org</bms:location>
+          <bms:resourceCreationDate>2001-12-31T12:00:00</bms:resourceCreationDate>
+          <bms:resourceModifiedDate>2001-12-31T12:00:00</bms:resourceModifiedDate>
+          <bms:serviceGeneratedElement>true</bms:serviceGeneratedElement>
+          <bms:isFullyPopulated>true</bms:isFullyPopulated>
+          <bms:notifyAt>
+            <bms:replyTo>http://tempuri.org</bms:replyTo>
+            <bms:faultTo>http://tempuri.org</bms:faultTo>
+          </bms:notifyAt>
+          <bms:ExtensionGroup/>
+          <bms:ExtensionAttributes/>
+          <bms:bmContents>
+            <bms:bmContent>
+              <bms:resourceID>bms:resourceID</bms:resourceID>
+              <bms:revisionID>NMTOKEN</bms:revisionID>
+              <bms:location>http://tempuri.org</bms:location>
+              <bms:resourceCreationDate>2001-12-31T12:00:00</bms:resourceCreationDate>
+              <bms:resourceModifiedDate>2001-12-31T12:00:00</bms:resourceModifiedDate>
+              <bms:serviceGeneratedElement>true</bms:serviceGeneratedElement>
+              <bms:isFullyPopulated>true</bms:isFullyPopulated>
+              <bms:notifyAt>
+                <bms:replyTo>http://tempuri.org</bms:replyTo>
+                <bms:faultTo>http://tempuri.org</bms:faultTo>
+              </bms:notifyAt>
+              <bms:ExtensionGroup/>
+              <bms:ExtensionAttributes/>
+              <bms:bmContentFormats>
+                <bms:bmContentFormat>
+                  <bms:resourceID>bms:resourceID</bms:resourceID>
+                  <bms:revisionID>NMTOKEN</bms:revisionID>
+                  <bms:location>http://tempuri.org</bms:location>
+                  <bms:resourceCreationDate>2001-12-31T12:00:00</bms:resourceCreationDate>
+                  <bms:resourceModifiedDate>2001-12-31T12:00:00</bms:resourceModifiedDate>
+                  <bms:serviceGeneratedElement>true</bms:serviceGeneratedElement>
+                  <bms:isFullyPopulated>true</bms:isFullyPopulated>
+                  <bms:notifyAt>
+                    <bms:replyTo>http://tempuri.org</bms:replyTo>
+                    <bms:faultTo>http://tempuri.org</bms:faultTo>
+                  </bms:notifyAt>
+                  <bms:ExtensionGroup/>
+                  <bms:ExtensionAttributes/>
+                  <bms:bmEssenceLocators>
+                    <bms:bmEssenceLocator xsi:type="bms:BMEssenceLocatorType">
+                      <bms:resourceID>bms:resourceID</bms:resourceID>
+                      <bms:revisionID>NMTOKEN</bms:revisionID>
+                      <bms:location>http://tempuri.org</bms:location>
+                      <bms:resourceCreationDate>2001-12-31T12:00:00</bms:resourceCreationDate>
+                      <bms:resourceModifiedDate>2001-12-31T12:00:00</bms:resourceModifiedDate>
+                      <bms:serviceGeneratedElement>true</bms:serviceGeneratedElement>
+                      <bms:isFullyPopulated>true</bms:isFullyPopulated>
+                      <bms:notifyAt>
+                        <bms:replyTo>http://tempuri.org</bms:replyTo>
+                        <bms:faultTo>http://tempuri.org</bms:faultTo>
+                      </bms:notifyAt>
+                      <bms:ExtensionGroup/>
+                      <bms:ExtensionAttributes/>
+                      <bms:storageType typeDefinition="" typeLabel="" typeLink="http://tempuri.org">online</bms:storageType>
+                      <bms:locatorInfo>bms:locatorInfo</bms:locatorInfo>
+                      <bms:containerMimeType typeDefinition="" typeLabel="" typeLink="http://tempuri.org">bms:containerMimeType</bms:containerMimeType>
+                      <bms:status>
+                        <bms:resourceID>bms:resourceID</bms:resourceID>
+                        <bms:revisionID>NMTOKEN</bms:revisionID>
+                        <bms:location>http://tempuri.org</bms:location>
+                        <bms:resourceCreationDate>2001-12-31T12:00:00</bms:resourceCreationDate>
+                        <bms:resourceModifiedDate>2001-12-31T12:00:00</bms:resourceModifiedDate>
+                        <bms:serviceGeneratedElement>true</bms:serviceGeneratedElement>
+                        <bms:isFullyPopulated>true</bms:isFullyPopulated>
+                        <bms:notifyAt>
+                          <bms:replyTo>http://tempuri.org</bms:replyTo>
+                          <bms:faultTo>http://tempuri.org</bms:faultTo>
+                        </bms:notifyAt>
+                        <bms:ExtensionGroup/>
+                        <bms:ExtensionAttributes/>
+                        <bms:status>new</bms:status>
+                        <bms:subStatus>
+                          <bms:resourceID>bms:resourceID</bms:resourceID>
+                          <bms:revisionID>NMTOKEN</bms:revisionID>
+                          <bms:location>http://tempuri.org</bms:location>
+                          <bms:resourceCreationDate>2001-12-31T12:00:00</bms:resourceCreationDate>
+                          <bms:resourceModifiedDate>2001-12-31T12:00:00</bms:resourceModifiedDate>
+                          <bms:serviceGeneratedElement>true</bms:serviceGeneratedElement>
+                          <bms:isFullyPopulated>true</bms:isFullyPopulated>
+                          <bms:notifyAt>
+                            <bms:replyTo>http://tempuri.org</bms:replyTo>
+                            <bms:faultTo>http://tempuri.org</bms:faultTo>
+                          </bms:notifyAt>
+                          <bms:ExtensionGroup/>
+                          <bms:ExtensionAttributes/>
+                          <bms:code>bms:code</bms:code>
+                          <bms:description>bms:description</bms:description>
+                        </bms:subStatus>
+                      </bms:status>
+                    </bms:bmEssenceLocator>
+                  </bms:bmEssenceLocators>
+                  <bms:formatCollection>
+                    <bms:videoFormat>
+                      <bms:resourceID>bms:resourceID</bms:resourceID>
+                      <bms:revisionID>NMTOKEN</bms:revisionID>
+                      <bms:location>http://tempuri.org</bms:location>
+                      <bms:resourceCreationDate>2001-12-31T12:00:00</bms:resourceCreationDate>
+                      <bms:resourceModifiedDate>2001-12-31T12:00:00</bms:resourceModifiedDate>
+                      <bms:serviceGeneratedElement>true</bms:serviceGeneratedElement>
+                      <bms:isFullyPopulated>true</bms:isFullyPopulated>
+                      <bms:notifyAt>
+                        <bms:replyTo>http://tempuri.org</bms:replyTo>
+                        <bms:faultTo>http://tempuri.org</bms:faultTo>
+                      </bms:notifyAt>
+                      <bms:ExtensionGroup/>
+                      <bms:ExtensionAttributes/>
+                      <bms:technicalAttribute formatDefinition="" formatLabel="" formatLink="http://tempuri.org" typeDefinition="" typeLabel="" typeLink="http://tempuri.org" unit="">bms:technicalAttribute</bms:technicalAttribute>
+                      <bms:displayWidth unit="">0</bms:displayWidth>
+                      <bms:displayHeight unit="">0</bms:displayHeight>
+                      <bms:frameRate denominator="1" numerator="1">0</bms:frameRate>
+                      <bms:aspectRatio denominator="1" numerator="1">0</bms:aspectRatio>
+                      <bms:videoEncoding typeDefinition="" typeLabel="" typeLink="http://tempuri.org">
+                        <bms:name>bms:name</bms:name>
+                        <bms:vendor>bms:vendor</bms:vendor>
+                        <bms:version>bms:version</bms:version>
+                        <bms:family>bms:family</bms:family>
+                      </bms:videoEncoding>
+                      <bms:videoTrack language="EN" trackID="" trackName="" typeDefinition="" typeLabel="" typeLink="http://tempuri.org">
+                        <bms:ExtensionGroup/>
+                        <bms:ExtensionAttributes/>
+                      </bms:videoTrack>
+                      <bms:bitRate>0</bms:bitRate>
+                      <bms:bitRateMode>constant</bms:bitRateMode>
+                      <bms:lines>0</bms:lines>
+                      <bms:scanningFormat>interlaced</bms:scanningFormat>
+                      <bms:scanningOrder>top</bms:scanningOrder>
+                      <bms:noiseFilter>true</bms:noiseFilter>
+                    </bms:videoFormat>
+                    <bms:audioFormat>
+                      <bms:resourceID>bms:resourceID</bms:resourceID>
+                      <bms:revisionID>NMTOKEN</bms:revisionID>
+                      <bms:location>http://tempuri.org</bms:location>
+                      <bms:resourceCreationDate>2001-12-31T12:00:00</bms:resourceCreationDate>
+                      <bms:resourceModifiedDate>2001-12-31T12:00:00</bms:resourceModifiedDate>
+                      <bms:serviceGeneratedElement>true</bms:serviceGeneratedElement>
+                      <bms:isFullyPopulated>true</bms:isFullyPopulated>
+                      <bms:notifyAt>
+                        <bms:replyTo>http://tempuri.org</bms:replyTo>
+                        <bms:faultTo>http://tempuri.org</bms:faultTo>
+                      </bms:notifyAt>
+                      <bms:ExtensionGroup/>
+                      <bms:ExtensionAttributes/>
+                      <bms:technicalAttribute formatDefinition="" formatLabel="" formatLink="http://tempuri.org" typeDefinition="" typeLabel="" typeLink="http://tempuri.org" unit="">bms:technicalAttribute</bms:technicalAttribute>
+                      <bms:samplingRate>0.0</bms:samplingRate>
+                      <bms:audioEncoding typeDefinition="" typeLabel="" typeLink="http://tempuri.org">
+                        <bms:name>bms:name</bms:name>
+                        <bms:vendor>bms:vendor</bms:vendor>
+                        <bms:version>bms:version</bms:version>
+                        <bms:family>bms:family</bms:family>
+                      </bms:audioEncoding>
+                      <bms:trackConfiguration typeDefinition="" typeLabel="" typeLink="http://tempuri.org"/>
+                      <bms:audioTrack language="EN" trackID="" trackName="" typeDefinition="" typeLabel="" typeLink="http://tempuri.org">
+                        <bms:ExtensionGroup/>
+                        <bms:ExtensionAttributes/>
+                      </bms:audioTrack>
+                      <bms:channels>0</bms:channels>
+                      <bms:bitRate>0</bms:bitRate>
+                      <bms:bitRateMode>constant</bms:bitRateMode>
+                      <bms:sampleSize>0</bms:sampleSize>
+                      <bms:sampleType>float</bms:sampleType>
+                    </bms:audioFormat>
+                    <bms:dataFormat>
+                      <bms:resourceID>bms:resourceID</bms:resourceID>
+                      <bms:revisionID>NMTOKEN</bms:revisionID>
+                      <bms:location>http://tempuri.org</bms:location>
+                      <bms:resourceCreationDate>2001-12-31T12:00:00</bms:resourceCreationDate>
+                      <bms:resourceModifiedDate>2001-12-31T12:00:00</bms:resourceModifiedDate>
+                      <bms:serviceGeneratedElement>true</bms:serviceGeneratedElement>
+                      <bms:isFullyPopulated>true</bms:isFullyPopulated>
+                      <bms:notifyAt>
+                        <bms:replyTo>http://tempuri.org</bms:replyTo>
+                        <bms:faultTo>http://tempuri.org</bms:faultTo>
+                      </bms:notifyAt>
+                      <bms:ExtensionGroup/>
+                      <bms:ExtensionAttributes/>
+                      <bms:technicalAttribute formatDefinition="" formatLabel="" formatLink="http://tempuri.org" typeDefinition="" typeLabel="" typeLink="http://tempuri.org" unit="">bms:technicalAttribute</bms:technicalAttribute>
+                      <bms:captioningFormat captioningSourceUri="http://tempuri.org" formatDefinition="" formatLabel="" formatLink="http://tempuri.org" language="EN">bms:captioningFormat</bms:captioningFormat>
+                      <bms:ancillaryDataFormat>
+                        <bms:DID>0</bms:DID>
+                        <bms:SDID>0</bms:SDID>
+                        <bms:lineNumber>0</bms:lineNumber>
+                        <bms:wrappingType>0</bms:wrappingType>
+                        <bms:ExtensionGroup/>
+                        <bms:ExtensionAttributes/>
+                      </bms:ancillaryDataFormat>
+                    </bms:dataFormat>
+                    <bms:containerFormat>
+                      <bms:resourceID>bms:resourceID</bms:resourceID>
+                      <bms:revisionID>NMTOKEN</bms:revisionID>
+                      <bms:location>http://tempuri.org</bms:location>
+                      <bms:resourceCreationDate>2001-12-31T12:00:00</bms:resourceCreationDate>
+                      <bms:resourceModifiedDate>2001-12-31T12:00:00</bms:resourceModifiedDate>
+                      <bms:serviceGeneratedElement>true</bms:serviceGeneratedElement>
+                      <bms:isFullyPopulated>true</bms:isFullyPopulated>
+                      <bms:notifyAt>
+                        <bms:replyTo>http://tempuri.org</bms:replyTo>
+                        <bms:faultTo>http://tempuri.org</bms:faultTo>
+                      </bms:notifyAt>
+                      <bms:ExtensionGroup/>
+                      <bms:ExtensionAttributes/>
+                      <bms:technicalAttribute formatDefinition="" formatLabel="" formatLink="http://tempuri.org" typeDefinition="" typeLabel="" typeLink="http://tempuri.org" unit="">bms:technicalAttribute</bms:technicalAttribute>
+                      <bms:containerFormat formatDefinition="" formatLabel="" formatLink="http://tempuri.org">bms:containerFormat</bms:containerFormat>
+                    </bms:containerFormat>
+                  </bms:formatCollection>
+                  <bms:duration>
+                    <tim:timecode>tim:timecode</tim:timecode>
+                  </bms:duration>
+                  <bms:hash>
+                    <bms:hashFunction typeDefinition="" typeLabel="" typeLink="http://tempuri.org">CRC32</bms:hashFunction>
+                    <bms:value>0F00</bms:value>
+                  </bms:hash>
+                  <bms:packageSize>0</bms:packageSize>
+                  <bms:mimeType typeDefinition="" typeLabel="" typeLink="http://tempuri.org">bms:mimeType</bms:mimeType>
+                  <bms:technicalAttribute formatDefinition="" formatLabel="" formatLink="http://tempuri.org" typeDefinition="" typeLabel="" typeLink="http://tempuri.org" unit="">bms:technicalAttribute</bms:technicalAttribute>
+                </bms:bmContentFormat>
+              </bms:bmContentFormats>
+              <bms:qaReportReferences>
+                <bms:qaReportReference xsi:type="bms:ResourceReferenceType">
+                  <bms:resourceID>bms:resourceID</bms:resourceID>
+                  <bms:revisionID>NMTOKEN</bms:revisionID>
+                  <bms:location>http://tempuri.org</bms:location>
+                </bms:qaReportReference>
+              </bms:qaReportReferences>
+              <bms:descriptions>
+                <bms:description>
+                  <bms:resourceID>bms:resourceID</bms:resourceID>
+                  <bms:revisionID>NMTOKEN</bms:revisionID>
+                  <bms:location>http://tempuri.org</bms:location>
+                  <bms:resourceCreationDate>2001-12-31T12:00:00</bms:resourceCreationDate>
+                  <bms:resourceModifiedDate>2001-12-31T12:00:00</bms:resourceModifiedDate>
+                  <bms:serviceGeneratedElement>true</bms:serviceGeneratedElement>
+                  <bms:isFullyPopulated>true</bms:isFullyPopulated>
+                  <bms:notifyAt>
+                    <bms:replyTo>http://tempuri.org</bms:replyTo>
+                    <bms:faultTo>http://tempuri.org</bms:faultTo>
+                  </bms:notifyAt>
+                  <bms:ExtensionGroup/>
+                  <bms:ExtensionAttributes/>
+                  <desc:bmContentDescription desc:lang="EN" xsi:type="desc:bmContentDescriptionType">
+                    <desc:title desc:lang="EN" endDate="2001-01-01" endTime="12:00:00" endYear="2001" geographicalExclusionScope="" geographicalScope="" length="1" note="" period="" startDate="2001-01-01" startTime="12:00:00" startYear="2001" typeDefinition="" typeLabel="" typeLanguage="EN" typeLink="http://tempuri.org" typeNamespace="" typeSource="" xsi:type="desc:titleType">desc:title</desc:title>
+                    <desc:alternativeTitle desc:lang="EN" endDate="2001-01-01" endTime="12:00:00" endYear="2001" geographicalExclusionScope="" geographicalScope="" length="1" note="" period="" startDate="2001-01-01" startTime="12:00:00" startYear="2001" statusDefinition="" statusLabel="" statusLanguage="EN" statusLink="http://tempuri.org" statusNamespace="" typeDefinition="" typeLabel="" typeLanguage="EN" typeLink="http://tempuri.org" typeNamespace="" typeSource="">desc:alternativeTitle</desc:alternativeTitle>
+                    <desc:creator entityId="http://tempuri.org">
+                      <desc:contactDetails contactId="http://tempuri.org" lastUpdate="2001-01-01" typeDefinition="" typeLabel="" typeLanguage="EN" typeLink="http://tempuri.org" typeNamespace="" typeSource="">
+                        <desc:name desc:lang="EN" formatDefinition="" formatLabel="" formatLanguage="EN" formatLink="http://tempuri.org" formatNamespace="" formatSource="" typeDefinition="" typeLabel="" typeLanguage="EN" typeLink="http://tempuri.org" typeNamespace="" typeSource="">desc:name</desc:name>
+                        <desc:birthDate>2001-01-01</desc:birthDate>
+                        <desc:deathDate>2001-01-01</desc:deathDate>
+                        <desc:birthPlace>desc:birthPlace</desc:birthPlace>
+                        <desc:nationality>desc:nationality</desc:nationality>
+                        <desc:username desc:lang="EN" xsi:type="desc:textElementType">desc:username</desc:username>
+                        <desc:occupation desc:lang="EN" xsi:type="desc:textElementType">desc:occupation</desc:occupation>
+                        <desc:details typeDefinition="" typeLabel="" typeLanguage="EN" typeLink="http://tempuri.org" typeNamespace="" typeSource="">
+                          <desc:emailAddress>desc:emailAddress</desc:emailAddress>
+                          <desc:webAddress>desc:webAddress</desc:webAddress>
+                          <desc:address>
+                            <desc:addressLine desc:lang="EN" xsi:type="desc:textElementType">desc:addressLine</desc:addressLine>
+                            <desc:addressTownCity desc:lang="EN" xsi:type="desc:textElementType">desc:addressTownCity</desc:addressTownCity>
+                            <desc:addressCountyState desc:lang="EN" xsi:type="desc:textElementType">desc:addressCountyState</desc:addressCountyState>
+                            <desc:addressDeliveryCode>desc:addressDeliveryCode</desc:addressDeliveryCode>
+                            <desc:country typeDefinition="" typeLabel="" typeLanguage="EN" typeLink="http://tempuri.org" typeNamespace="" typeSource=""/>
+                          </desc:address>
+                          <desc:telephoneNumber>desc:telephoneNumber</desc:telephoneNumber>
+                          <desc:mobileTelephoneNumber>desc:mobileTelephoneNumber</desc:mobileTelephoneNumber>
+                        </desc:details>
+                        <desc:stageName desc:lang="EN" xsi:type="desc:textElementType">desc:stageName</desc:stageName>
+                        <desc:guest>true</desc:guest>
+                        <desc:gender desc:lang="EN" xsi:type="desc:textElementType">desc:gender</desc:gender>
+                        <desc:nickname desc:lang="EN" xsi:type="desc:textElementType">desc:nickname</desc:nickname>
+                        <desc:affiliation desc:lang="EN" xsi:type="desc:textElementType">desc:affiliation</desc:affiliation>
+                        <desc:relatedInformationLink typeDefinition="" typeLabel="" typeLanguage="EN" typeLink="http://tempuri.org" typeNamespace="" typeSource="">http://tempuri.org</desc:relatedInformationLink>
+                        <desc:relatedContacts entityId="http://tempuri.org"/>
+                        <desc:skill>desc:skill</desc:skill>
+                      </desc:contactDetails>
+                      <desc:organisationDetails lastUpdate="2001-01-01" linkToLogo="http://tempuri.org" organisationId="http://tempuri.org" typeDefinition="" typeLabel="" typeLanguage="EN" typeLink="http://tempuri.org" typeNamespace="" typeSource="">
+                        <desc:organisationName desc:lang="EN" formatDefinition="" formatLabel="" formatLanguage="EN" formatLink="http://tempuri.org" formatNamespace="" formatSource="" typeDefinition="" typeLabel="" typeLanguage="EN" typeLink="http://tempuri.org" typeNamespace="" typeSource="">desc:organisationName</desc:organisationName>
+                        <desc:organisationCode attributor="" formatDefinition="" formatLabel="" formatLanguage="EN" formatLink="http://tempuri.org" formatNamespace="" formatSource="" note="" typeDefinition="" typeLabel="" typeLanguage="EN" typeLink="http://tempuri.org" typeNamespace="" typeSource="">desc:organisationCode</desc:organisationCode>
+                        <desc:organisationDescription desc:lang="EN" xsi:type="desc:textElementType">desc:organisationDescription</desc:organisationDescription>
+                        <desc:organisationNationality>desc:organisationNationality</desc:organisationNationality>
+                        <desc:organisationDepartment departmentId="http://tempuri.org" desc:lang="EN">desc:organisationDepartment</desc:organisationDepartment>
+                        <desc:details typeDefinition="" typeLabel="" typeLanguage="EN" typeLink="http://tempuri.org" typeNamespace="" typeSource="">
+                          <desc:emailAddress>desc:emailAddress</desc:emailAddress>
+                          <desc:webAddress>desc:webAddress</desc:webAddress>
+                          <desc:address>
+                            <desc:addressLine desc:lang="EN" xsi:type="desc:textElementType">desc:addressLine</desc:addressLine>
+                            <desc:addressTownCity desc:lang="EN" xsi:type="desc:textElementType">desc:addressTownCity</desc:addressTownCity>
+                            <desc:addressCountyState desc:lang="EN" xsi:type="desc:textElementType">desc:addressCountyState</desc:addressCountyState>
+                            <desc:addressDeliveryCode>desc:addressDeliveryCode</desc:addressDeliveryCode>
+                            <desc:country typeDefinition="" typeLabel="" typeLanguage="EN" typeLink="http://tempuri.org" typeNamespace="" typeSource=""/>
+                          </desc:address>
+                          <desc:telephoneNumber>desc:telephoneNumber</desc:telephoneNumber>
+                          <desc:mobileTelephoneNumber>desc:mobileTelephoneNumber</desc:mobileTelephoneNumber>
+                        </desc:details>
+                        <desc:relatedInformationLink typeDefinition="" typeLabel="" typeLanguage="EN" typeLink="http://tempuri.org" typeNamespace="" typeSource="">http://tempuri.org</desc:relatedInformationLink>
+                        <desc:contacts entityId="http://tempuri.org"/>
+                      </desc:organisationDetails>
+                      <desc:role costCentre="" typeDefinition="" typeLabel="" typeLanguage="EN" typeLink="http://tempuri.org" typeNamespace="" typeSource=""/>
+                    </desc:creator>
+                    <desc:subject attributor="" desc:lang="EN" note="" typeDefinition="" typeLabel="" typeLanguage="EN" typeLink="http://tempuri.org" typeNamespace="" typeSource="">desc:subject</desc:subject>
+                    <desc:description attributor="" castFlag="true" desc:lang="EN" endDate="2001-01-01" endTime="12:00:00" endYear="2001" geographicalExclusionScope="" geographicalScope="" length="1" note="" period="" startDate="2001-01-01" startTime="12:00:00" startYear="2001" typeDefinition="" typeLabel="" typeLanguage="EN" typeLink="http://tempuri.org" typeNamespace="" typeSource="">desc:description</desc:description>
+                    <desc:publisher entityId="http://tempuri.org">
+                      <desc:contactDetails contactId="http://tempuri.org" lastUpdate="2001-01-01" typeDefinition="" typeLabel="" typeLanguage="EN" typeLink="http://tempuri.org" typeNamespace="" typeSource="">
+                        <desc:name desc:lang="EN" formatDefinition="" formatLabel="" formatLanguage="EN" formatLink="http://tempuri.org" formatNamespace="" formatSource="" typeDefinition="" typeLabel="" typeLanguage="EN" typeLink="http://tempuri.org" typeNamespace="" typeSource="">desc:name</desc:name>
+                        <desc:birthDate>2001-01-01</desc:birthDate>
+                        <desc:deathDate>2001-01-01</desc:deathDate>
+                        <desc:birthPlace>desc:birthPlace</desc:birthPlace>
+                        <desc:nationality>desc:nationality</desc:nationality>
+                        <desc:username desc:lang="EN" xsi:type="desc:textElementType">desc:username</desc:username>
+                        <desc:occupation desc:lang="EN" xsi:type="desc:textElementType">desc:occupation</desc:occupation>
+                        <desc:details typeDefinition="" typeLabel="" typeLanguage="EN" typeLink="http://tempuri.org" typeNamespace="" typeSource="">
+                          <desc:emailAddress>desc:emailAddress</desc:emailAddress>
+                          <desc:webAddress>desc:webAddress</desc:webAddress>
+                          <desc:address>
+                            <desc:addressLine desc:lang="EN" xsi:type="desc:textElementType">desc:addressLine</desc:addressLine>
+                            <desc:addressTownCity desc:lang="EN" xsi:type="desc:textElementType">desc:addressTownCity</desc:addressTownCity>
+                            <desc:addressCountyState desc:lang="EN" xsi:type="desc:textElementType">desc:addressCountyState</desc:addressCountyState>
+                            <desc:addressDeliveryCode>desc:addressDeliveryCode</desc:addressDeliveryCode>
+                            <desc:country typeDefinition="" typeLabel="" typeLanguage="EN" typeLink="http://tempuri.org" typeNamespace="" typeSource=""/>
+                          </desc:address>
+                          <desc:telephoneNumber>desc:telephoneNumber</desc:telephoneNumber>
+                          <desc:mobileTelephoneNumber>desc:mobileTelephoneNumber</desc:mobileTelephoneNumber>
+                        </desc:details>
+                        <desc:stageName desc:lang="EN" xsi:type="desc:textElementType">desc:stageName</desc:stageName>
+                        <desc:guest>true</desc:guest>
+                        <desc:gender desc:lang="EN" xsi:type="desc:textElementType">desc:gender</desc:gender>
+                        <desc:nickname desc:lang="EN" xsi:type="desc:textElementType">desc:nickname</desc:nickname>
+                        <desc:affiliation desc:lang="EN" xsi:type="desc:textElementType">desc:affiliation</desc:affiliation>
+                        <desc:relatedInformationLink typeDefinition="" typeLabel="" typeLanguage="EN" typeLink="http://tempuri.org" typeNamespace="" typeSource="">http://tempuri.org</desc:relatedInformationLink>
+                        <desc:relatedContacts entityId="http://tempuri.org"/>
+                        <desc:skill>desc:skill</desc:skill>
+                      </desc:contactDetails>
+                      <desc:organisationDetails lastUpdate="2001-01-01" linkToLogo="http://tempuri.org" organisationId="http://tempuri.org" typeDefinition="" typeLabel="" typeLanguage="EN" typeLink="http://tempuri.org" typeNamespace="" typeSource="">
+                        <desc:organisationName desc:lang="EN" formatDefinition="" formatLabel="" formatLanguage="EN" formatLink="http://tempuri.org" formatNamespace="" formatSource="" typeDefinition="" typeLabel="" typeLanguage="EN" typeLink="http://tempuri.org" typeNamespace="" typeSource="">desc:organisationName</desc:organisationName>
+                        <desc:organisationCode attributor="" formatDefinition="" formatLabel="" formatLanguage="EN" formatLink="http://tempuri.org" formatNamespace="" formatSource="" note="" typeDefinition="" typeLabel="" typeLanguage="EN" typeLink="http://tempuri.org" typeNamespace="" typeSource="">desc:organisationCode</desc:organisationCode>
+                        <desc:organisationDescription desc:lang="EN" xsi:type="desc:textElementType">desc:organisationDescription</desc:organisationDescription>
+                        <desc:organisationNationality>desc:organisationNationality</desc:organisationNationality>
+                        <desc:organisationDepartment departmentId="http://tempuri.org" desc:lang="EN">desc:organisationDepartment</desc:organisationDepartment>
+                        <desc:details typeDefinition="" typeLabel="" typeLanguage="EN" typeLink="http://tempuri.org" typeNamespace="" typeSource="">
+                          <desc:emailAddress>desc:emailAddress</desc:emailAddress>
+                          <desc:webAddress>desc:webAddress</desc:webAddress>
+                          <desc:address>
+                            <desc:addressLine desc:lang="EN" xsi:type="desc:textElementType">desc:addressLine</desc:addressLine>
+                            <desc:addressTownCity desc:lang="EN" xsi:type="desc:textElementType">desc:addressTownCity</desc:addressTownCity>
+                            <desc:addressCountyState desc:lang="EN" xsi:type="desc:textElementType">desc:addressCountyState</desc:addressCountyState>
+                            <desc:addressDeliveryCode>desc:addressDeliveryCode</desc:addressDeliveryCode>
+                            <desc:country typeDefinition="" typeLabel="" typeLanguage="EN" typeLink="http://tempuri.org" typeNamespace="" typeSource=""/>
+                          </desc:address>
+                          <desc:telephoneNumber>desc:telephoneNumber</desc:telephoneNumber>
+                          <desc:mobileTelephoneNumber>desc:mobileTelephoneNumber</desc:mobileTelephoneNumber>
+                        </desc:details>
+                        <desc:relatedInformationLink typeDefinition="" typeLabel="" typeLanguage="EN" typeLink="http://tempuri.org" typeNamespace="" typeSource="">http://tempuri.org</desc:relatedInformationLink>
+                        <desc:contacts entityId="http://tempuri.org"/>
+                      </desc:organisationDetails>
+                      <desc:role costCentre="" typeDefinition="" typeLabel="" typeLanguage="EN" typeLink="http://tempuri.org" typeNamespace="" typeSource=""/>
+                    </desc:publisher>
+                    <desc:contributor entityId="http://tempuri.org">
+                      <desc:contactDetails contactId="http://tempuri.org" lastUpdate="2001-01-01" typeDefinition="" typeLabel="" typeLanguage="EN" typeLink="http://tempuri.org" typeNamespace="" typeSource="">
+                        <desc:name desc:lang="EN" formatDefinition="" formatLabel="" formatLanguage="EN" formatLink="http://tempuri.org" formatNamespace="" formatSource="" typeDefinition="" typeLabel="" typeLanguage="EN" typeLink="http://tempuri.org" typeNamespace="" typeSource="">desc:name</desc:name>
+                        <desc:birthDate>2001-01-01</desc:birthDate>
+                        <desc:deathDate>2001-01-01</desc:deathDate>
+                        <desc:birthPlace>desc:birthPlace</desc:birthPlace>
+                        <desc:nationality>desc:nationality</desc:nationality>
+                        <desc:username desc:lang="EN" xsi:type="desc:textElementType">desc:username</desc:username>
+                        <desc:occupation desc:lang="EN" xsi:type="desc:textElementType">desc:occupation</desc:occupation>
+                        <desc:details typeDefinition="" typeLabel="" typeLanguage="EN" typeLink="http://tempuri.org" typeNamespace="" typeSource="">
+                          <desc:emailAddress>desc:emailAddress</desc:emailAddress>
+                          <desc:webAddress>desc:webAddress</desc:webAddress>
+                          <desc:address>
+                            <desc:addressLine desc:lang="EN" xsi:type="desc:textElementType">desc:addressLine</desc:addressLine>
+                            <desc:addressTownCity desc:lang="EN" xsi:type="desc:textElementType">desc:addressTownCity</desc:addressTownCity>
+                            <desc:addressCountyState desc:lang="EN" xsi:type="desc:textElementType">desc:addressCountyState</desc:addressCountyState>
+                            <desc:addressDeliveryCode>desc:addressDeliveryCode</desc:addressDeliveryCode>
+                            <desc:country typeDefinition="" typeLabel="" typeLanguage="EN" typeLink="http://tempuri.org" typeNamespace="" typeSource=""/>
+                          </desc:address>
+                          <desc:telephoneNumber>desc:telephoneNumber</desc:telephoneNumber>
+                          <desc:mobileTelephoneNumber>desc:mobileTelephoneNumber</desc:mobileTelephoneNumber>
+                        </desc:details>
+                        <desc:stageName desc:lang="EN" xsi:type="desc:textElementType">desc:stageName</desc:stageName>
+                        <desc:guest>true</desc:guest>
+                        <desc:gender desc:lang="EN" xsi:type="desc:textElementType">desc:gender</desc:gender>
+                        <desc:nickname desc:lang="EN" xsi:type="desc:textElementType">desc:nickname</desc:nickname>
+                        <desc:affiliation desc:lang="EN" xsi:type="desc:textElementType">desc:affiliation</desc:affiliation>
+                        <desc:relatedInformationLink typeDefinition="" typeLabel="" typeLanguage="EN" typeLink="http://tempuri.org" typeNamespace="" typeSource="">http://tempuri.org</desc:relatedInformationLink>
+                        <desc:relatedContacts entityId="http://tempuri.org"/>
+                        <desc:skill>desc:skill</desc:skill>
+                      </desc:contactDetails>
+                      <desc:organisationDetails lastUpdate="2001-01-01" linkToLogo="http://tempuri.org" organisationId="http://tempuri.org" typeDefinition="" typeLabel="" typeLanguage="EN" typeLink="http://tempuri.org" typeNamespace="" typeSource="">
+                        <desc:organisationName desc:lang="EN" formatDefinition="" formatLabel="" formatLanguage="EN" formatLink="http://tempuri.org" formatNamespace="" formatSource="" typeDefinition="" typeLabel="" typeLanguage="EN" typeLink="http://tempuri.org" typeNamespace="" typeSource="">desc:organisationName</desc:organisationName>
+                        <desc:organisationCode attributor="" formatDefinition="" formatLabel="" formatLanguage="EN" formatLink="http://tempuri.org" formatNamespace="" formatSource="" note="" typeDefinition="" typeLabel="" typeLanguage="EN" typeLink="http://tempuri.org" typeNamespace="" typeSource="">desc:organisationCode</desc:organisationCode>
+                        <desc:organisationDescription desc:lang="EN" xsi:type="desc:textElementType">desc:organisationDescription</desc:organisationDescription>
+                        <desc:organisationNationality>desc:organisationNationality</desc:organisationNationality>
+                        <desc:organisationDepartment departmentId="http://tempuri.org" desc:lang="EN">desc:organisationDepartment</desc:organisationDepartment>
+                        <desc:details typeDefinition="" typeLabel="" typeLanguage="EN" typeLink="http://tempuri.org" typeNamespace="" typeSource="">
+                          <desc:emailAddress>desc:emailAddress</desc:emailAddress>
+                          <desc:webAddress>desc:webAddress</desc:webAddress>
+                          <desc:address>
+                            <desc:addressLine desc:lang="EN" xsi:type="desc:textElementType">desc:addressLine</desc:addressLine>
+                            <desc:addressTownCity desc:lang="EN" xsi:type="desc:textElementType">desc:addressTownCity</desc:addressTownCity>
+                            <desc:addressCountyState desc:lang="EN" xsi:type="desc:textElementType">desc:addressCountyState</desc:addressCountyState>
+                            <desc:addressDeliveryCode>desc:addressDeliveryCode</desc:addressDeliveryCode>
+                            <desc:country typeDefinition="" typeLabel="" typeLanguage="EN" typeLink="http://tempuri.org" typeNamespace="" typeSource=""/>
+                          </desc:address>
+                          <desc:telephoneNumber>desc:telephoneNumber</desc:telephoneNumber>
+                          <desc:mobileTelephoneNumber>desc:mobileTelephoneNumber</desc:mobileTelephoneNumber>
+                        </desc:details>
+                        <desc:relatedInformationLink typeDefinition="" typeLabel="" typeLanguage="EN" typeLink="http://tempuri.org" typeNamespace="" typeSource="">http://tempuri.org</desc:relatedInformationLink>
+                        <desc:contacts entityId="http://tempuri.org"/>
+                      </desc:organisationDetails>
+                      <desc:role costCentre="" typeDefinition="" typeLabel="" typeLanguage="EN" typeLink="http://tempuri.org" typeNamespace="" typeSource=""/>
+                    </desc:contributor>
+                    <desc:date note="" precision="">
+                      <desc:created endDate="2001-01-01" endTime="12:00:00" endYear="2001" period="" startDate="2001-01-01" startTime="12:00:00" startYear="2001"/>
+                      <desc:modified endDate="2001-01-01" endTime="12:00:00" endYear="2001" period="" startDate="2001-01-01" startTime="12:00:00" startYear="2001"/>
+                      <desc:issued endDate="2001-01-01" endTime="12:00:00" endYear="2001" period="" startDate="2001-01-01" startTime="12:00:00" startYear="2001"/>
+                      <desc:digitised endDate="2001-01-01" endTime="12:00:00" endYear="2001" period="" startDate="2001-01-01" startTime="12:00:00" startYear="2001"/>
+                      <desc:released endDate="2001-01-01" endTime="12:00:00" endYear="2001" period="" startDate="2001-01-01" startTime="12:00:00" startYear="2001"/>
+                      <desc:encoded endDate="2001-01-01" endTime="12:00:00" endYear="2001" period="" startDate="2001-01-01" startTime="12:00:00" startYear="2001"/>
+                      <desc:copyrighted endDate="2001-01-01" endTime="12:00:00" endYear="2001" period="" startDate="2001-01-01" startTime="12:00:00" startYear="2001"/>
+                      <desc:alternative endDate="2001-01-01" endTime="12:00:00" endYear="2001" formatDefinition="" formatLabel="" formatLanguage="EN" formatLink="http://tempuri.org" formatNamespace="" formatSource="" period="" startDate="2001-01-01" startTime="12:00:00" startYear="2001" typeDefinition="" typeLabel="" typeLanguage="EN" typeLink="http://tempuri.org" typeNamespace="" typeSource=""/>
+                    </desc:date>
+                    <desc:type note="" typeDefinition="" typeLabel="" typeLanguage="EN" typeLink="http://tempuri.org" typeNamespace="" typeSource="">
+                      <desc:genre desc:lang="EN" level="" typeDefinition="" typeLabel="" typeLanguage="EN" typeLink="http://tempuri.org" typeNamespace="" typeSource="">desc:genre</desc:genre>
+                      <desc:objectType desc:lang="EN" typeDefinition="" typeLabel="" typeLanguage="EN" typeLink="http://tempuri.org" typeNamespace="" typeSource="">desc:objectType</desc:objectType>
+                      <desc:targetAudience adultContent="true" formatDefinition="" formatLabel="" formatLanguage="EN" formatLink="http://tempuri.org" formatNamespace="" formatSource="" linkToLogo="http://tempuri.org" notRated="true" reason="" typeDefinition="" typeLabel="" typeLanguage="EN" typeLink="http://tempuri.org" typeNamespace="" typeSource="">
+                        <desc:targetRegion>
+                          <desc:country typeDefinition="" typeLabel="" typeLanguage="EN" typeLink="http://tempuri.org" typeNamespace="" typeSource=""/>
+                          <desc:countryRegion typeDefinition="" typeLabel="" typeLanguage="EN" typeLink="http://tempuri.org" typeNamespace="" typeSource=""/>
+                        </desc:targetRegion>
+                        <desc:targetExclusionRegion>
+                          <desc:country typeDefinition="" typeLabel="" typeLanguage="EN" typeLink="http://tempuri.org" typeNamespace="" typeSource=""/>
+                          <desc:countryRegion typeDefinition="" typeLabel="" typeLanguage="EN" typeLink="http://tempuri.org" typeNamespace="" typeSource=""/>
+                        </desc:targetExclusionRegion>
+                      </desc:targetAudience>
+                      <desc:audienceLevel adultContent="true" formatDefinition="" formatLabel="" formatLanguage="EN" formatLink="http://tempuri.org" formatNamespace="" formatSource="" linkToLogo="http://tempuri.org" notRated="true" reason="" typeDefinition="" typeLabel="" typeLanguage="EN" typeLink="http://tempuri.org" typeNamespace="" typeSource="">
+                        <desc:targetRegion>
+                          <desc:country typeDefinition="" typeLabel="" typeLanguage="EN" typeLink="http://tempuri.org" typeNamespace="" typeSource=""/>
+                          <desc:countryRegion typeDefinition="" typeLabel="" typeLanguage="EN" typeLink="http://tempuri.org" typeNamespace="" typeSource=""/>
+                        </desc:targetRegion>
+                        <desc:targetExclusionRegion>
+                          <desc:country typeDefinition="" typeLabel="" typeLanguage="EN" typeLink="http://tempuri.org" typeNamespace="" typeSource=""/>
+                          <desc:countryRegion typeDefinition="" typeLabel="" typeLanguage="EN" typeLink="http://tempuri.org" typeNamespace="" typeSource=""/>
+                        </desc:targetExclusionRegion>
+                      </desc:audienceLevel>
+                    </desc:type>
+                    <desc:identifier attributor="" formatDefinition="" formatLabel="" formatLanguage="EN" formatLink="http://tempuri.org" formatNamespace="" formatSource="" note="" typeDefinition="" typeLabel="" typeLanguage="EN" typeLink="http://tempuri.org" typeNamespace="" typeSource="">desc:identifier</desc:identifier>
+                    <desc:language desc:lang="EN" typeDefinition="" typeLabel="" typeLanguage="EN" typeLink="http://tempuri.org" typeNamespace="" typeSource=""/>
+                    <desc:relation note="" orderedGroupFlag="true" runningOrderNumber="0" totalNumberOfGroupMembers="0" typeDefinition="" typeLabel="" typeLanguage="EN" typeLink="http://tempuri.org" typeNamespace="" typeSource="">
+                      <desc:relationIdentifier attributor="" formatDefinition="" formatLabel="" formatLanguage="EN" formatLink="http://tempuri.org" formatNamespace="" formatSource="" note="" typeDefinition="" typeLabel="" typeLanguage="EN" typeLink="http://tempuri.org" typeNamespace="" typeSource="">desc:relationIdentifier</desc:relationIdentifier>
+                      <desc:relationLink>http://tempuri.org</desc:relationLink>
+                    </desc:relation>
+                    <desc:isVersionOf note="" orderedGroupFlag="true" runningOrderNumber="0" totalNumberOfGroupMembers="0" typeDefinition="" typeLabel="" typeLanguage="EN" typeLink="http://tempuri.org" typeNamespace="" typeSource="">
+                      <desc:relationIdentifier attributor="" formatDefinition="" formatLabel="" formatLanguage="EN" formatLink="http://tempuri.org" formatNamespace="" formatSource="" note="" typeDefinition="" typeLabel="" typeLanguage="EN" typeLink="http://tempuri.org" typeNamespace="" typeSource="">desc:relationIdentifier</desc:relationIdentifier>
+                      <desc:relationLink>http://tempuri.org</desc:relationLink>
+                    </desc:isVersionOf>
+                    <desc:hasVersion note="" orderedGroupFlag="true" runningOrderNumber="0" totalNumberOfGroupMembers="0" typeDefinition="" typeLabel="" typeLanguage="EN" typeLink="http://tempuri.org" typeNamespace="" typeSource="">
+                      <desc:relationIdentifier attributor="" formatDefinition="" formatLabel="" formatLanguage="EN" formatLink="http://tempuri.org" formatNamespace="" formatSource="" note="" typeDefinition="" typeLabel="" typeLanguage="EN" typeLink="http://tempuri.org" typeNamespace="" typeSource="">desc:relationIdentifier</desc:relationIdentifier>
+                      <desc:relationLink>http://tempuri.org</desc:relationLink>
+                    </desc:hasVersion>
+                    <desc:isReplacedBy note="" orderedGroupFlag="true" runningOrderNumber="0" totalNumberOfGroupMembers="0" typeDefinition="" typeLabel="" typeLanguage="EN" typeLink="http://tempuri.org" typeNamespace="" typeSource="">
+                      <desc:relationIdentifier attributor="" formatDefinition="" formatLabel="" formatLanguage="EN" formatLink="http://tempuri.org" formatNamespace="" formatSource="" note="" typeDefinition="" typeLabel="" typeLanguage="EN" typeLink="http://tempuri.org" typeNamespace="" typeSource="">desc:relationIdentifier</desc:relationIdentifier>
+                      <desc:relationLink>http://tempuri.org</desc:relationLink>
+                    </desc:isReplacedBy>
+                    <desc:replaces note="" orderedGroupFlag="true" runningOrderNumber="0" totalNumberOfGroupMembers="0" typeDefinition="" typeLabel="" typeLanguage="EN" typeLink="http://tempuri.org" typeNamespace="" typeSource="">
+                      <desc:relationIdentifier attributor="" formatDefinition="" formatLabel="" formatLanguage="EN" formatLink="http://tempuri.org" formatNamespace="" formatSource="" note="" typeDefinition="" typeLabel="" typeLanguage="EN" typeLink="http://tempuri.org" typeNamespace="" typeSource="">desc:relationIdentifier</desc:relationIdentifier>
+                      <desc:relationLink>http://tempuri.org</desc:relationLink>
+                    </desc:replaces>
+                    <desc:isRequiredBy note="" orderedGroupFlag="true" runningOrderNumber="0" totalNumberOfGroupMembers="0" typeDefinition="" typeLabel="" typeLanguage="EN" typeLink="http://tempuri.org" typeNamespace="" typeSource="">
+                      <desc:relationIdentifier attributor="" formatDefinition="" formatLabel="" formatLanguage="EN" formatLink="http://tempuri.org" formatNamespace="" formatSource="" note="" typeDefinition="" typeLabel="" typeLanguage="EN" typeLink="http://tempuri.org" typeNamespace="" typeSource="">desc:relationIdentifier</desc:relationIdentifier>
+                      <desc:relationLink>http://tempuri.org</desc:relationLink>
+                    </desc:isRequiredBy>
+                    <desc:requires note="" orderedGroupFlag="true" runningOrderNumber="0" totalNumberOfGroupMembers="0" typeDefinition="" typeLabel="" typeLanguage="EN" typeLink="http://tempuri.org" typeNamespace="" typeSource="">
+                      <desc:relationIdentifier attributor="" formatDefinition="" formatLabel="" formatLanguage="EN" formatLink="http://tempuri.org" formatNamespace="" formatSource="" note="" typeDefinition="" typeLabel="" typeLanguage="EN" typeLink="http://tempuri.org" typeNamespace="" typeSource="">desc:relationIdentifier</desc:relationIdentifier>
+                      <desc:relationLink>http://tempuri.org</desc:relationLink>
+                    </desc:requires>
+                    <desc:isPartOf note="" orderedGroupFlag="true" runningOrderNumber="0" totalNumberOfGroupMembers="0" typeDefinition="" typeLabel="" typeLanguage="EN" typeLink="http://tempuri.org" typeNamespace="" typeSource="">
+                      <desc:relationIdentifier attributor="" formatDefinition="" formatLabel="" formatLanguage="EN" formatLink="http://tempuri.org" formatNamespace="" formatSource="" note="" typeDefinition="" typeLabel="" typeLanguage="EN" typeLink="http://tempuri.org" typeNamespace="" typeSource="">desc:relationIdentifier</desc:relationIdentifier>
+                      <desc:relationLink>http://tempuri.org</desc:relationLink>
+                    </desc:isPartOf>
+                    <desc:hasPart note="" orderedGroupFlag="true" runningOrderNumber="0" totalNumberOfGroupMembers="0" typeDefinition="" typeLabel="" typeLanguage="EN" typeLink="http://tempuri.org" typeNamespace="" typeSource="">
+                      <desc:relationIdentifier attributor="" formatDefinition="" formatLabel="" formatLanguage="EN" formatLink="http://tempuri.org" formatNamespace="" formatSource="" note="" typeDefinition="" typeLabel="" typeLanguage="EN" typeLink="http://tempuri.org" typeNamespace="" typeSource="">desc:relationIdentifier</desc:relationIdentifier>
+                      <desc:relationLink>http://tempuri.org</desc:relationLink>
+                    </desc:hasPart>
+                    <desc:isReferencedBy note="" orderedGroupFlag="true" runningOrderNumber="0" totalNumberOfGroupMembers="0" typeDefinition="" typeLabel="" typeLanguage="EN" typeLink="http://tempuri.org" typeNamespace="" typeSource="">
+                      <desc:relationIdentifier attributor="" formatDefinition="" formatLabel="" formatLanguage="EN" formatLink="http://tempuri.org" formatNamespace="" formatSource="" note="" typeDefinition="" typeLabel="" typeLanguage="EN" typeLink="http://tempuri.org" typeNamespace="" typeSource="">desc:relationIdentifier</desc:relationIdentifier>
+                      <desc:relationLink>http://tempuri.org</desc:relationLink>
+                    </desc:isReferencedBy>
+                    <desc:references note="" orderedGroupFlag="true" runningOrderNumber="0" totalNumberOfGroupMembers="0" typeDefinition="" typeLabel="" typeLanguage="EN" typeLink="http://tempuri.org" typeNamespace="" typeSource="">
+                      <desc:relationIdentifier attributor="" formatDefinition="" formatLabel="" formatLanguage="EN" formatLink="http://tempuri.org" formatNamespace="" formatSource="" note="" typeDefinition="" typeLabel="" typeLanguage="EN" typeLink="http://tempuri.org" typeNamespace="" typeSource="">desc:relationIdentifier</desc:relationIdentifier>
+                      <desc:relationLink>http://tempuri.org</desc:relationLink>
+                    </desc:references>
+                    <desc:isFormatOf note="" orderedGroupFlag="true" runningOrderNumber="0" totalNumberOfGroupMembers="0" typeDefinition="" typeLabel="" typeLanguage="EN" typeLink="http://tempuri.org" typeNamespace="" typeSource="">
+                      <desc:relationIdentifier attributor="" formatDefinition="" formatLabel="" formatLanguage="EN" formatLink="http://tempuri.org" formatNamespace="" formatSource="" note="" typeDefinition="" typeLabel="" typeLanguage="EN" typeLink="http://tempuri.org" typeNamespace="" typeSource="">desc:relationIdentifier</desc:relationIdentifier>
+                      <desc:relationLink>http://tempuri.org</desc:relationLink>
+                    </desc:isFormatOf>
+                    <desc:hasFormat note="" orderedGroupFlag="true" runningOrderNumber="0" totalNumberOfGroupMembers="0" typeDefinition="" typeLabel="" typeLanguage="EN" typeLink="http://tempuri.org" typeNamespace="" typeSource="">
+                      <desc:relationIdentifier attributor="" formatDefinition="" formatLabel="" formatLanguage="EN" formatLink="http://tempuri.org" formatNamespace="" formatSource="" note="" typeDefinition="" typeLabel="" typeLanguage="EN" typeLink="http://tempuri.org" typeNamespace="" typeSource="">desc:relationIdentifier</desc:relationIdentifier>
+                      <desc:relationLink>http://tempuri.org</desc:relationLink>
+                    </desc:hasFormat>
+                    <desc:isRelatedTo note="" orderedGroupFlag="true" runningOrderNumber="0" totalNumberOfGroupMembers="0" typeDefinition="" typeLabel="" typeLanguage="EN" typeLink="http://tempuri.org" typeNamespace="" typeSource="">
+                      <desc:relationIdentifier attributor="" formatDefinition="" formatLabel="" formatLanguage="EN" formatLink="http://tempuri.org" formatNamespace="" formatSource="" note="" typeDefinition="" typeLabel="" typeLanguage="EN" typeLink="http://tempuri.org" typeNamespace="" typeSource="">desc:relationIdentifier</desc:relationIdentifier>
+                      <desc:relationLink>http://tempuri.org</desc:relationLink>
+                    </desc:isRelatedTo>
+                    <desc:isEpisodeOf note="" orderedGroupFlag="true" runningOrderNumber="0" totalNumberOfGroupMembers="0" typeDefinition="" typeLabel="" typeLanguage="EN" typeLink="http://tempuri.org" typeNamespace="" typeSource="">
+                      <desc:relationIdentifier attributor="" formatDefinition="" formatLabel="" formatLanguage="EN" formatLink="http://tempuri.org" formatNamespace="" formatSource="" note="" typeDefinition="" typeLabel="" typeLanguage="EN" typeLink="http://tempuri.org" typeNamespace="" typeSource="">desc:relationIdentifier</desc:relationIdentifier>
+                      <desc:relationLink>http://tempuri.org</desc:relationLink>
+                    </desc:isEpisodeOf>
+                    <desc:hasEpisode note="" orderedGroupFlag="true" runningOrderNumber="0" totalNumberOfGroupMembers="0" typeDefinition="" typeLabel="" typeLanguage="EN" typeLink="http://tempuri.org" typeNamespace="" typeSource="">
+                      <desc:relationIdentifier attributor="" formatDefinition="" formatLabel="" formatLanguage="EN" formatLink="http://tempuri.org" formatNamespace="" formatSource="" note="" typeDefinition="" typeLabel="" typeLanguage="EN" typeLink="http://tempuri.org" typeNamespace="" typeSource="">desc:relationIdentifier</desc:relationIdentifier>
+                      <desc:relationLink>http://tempuri.org</desc:relationLink>
+                    </desc:hasEpisode>
+                    <desc:isSeriesOf note="" orderedGroupFlag="true" runningOrderNumber="0" totalNumberOfGroupMembers="0" typeDefinition="" typeLabel="" typeLanguage="EN" typeLink="http://tempuri.org" typeNamespace="" typeSource="">
+                      <desc:relationIdentifier attributor="" formatDefinition="" formatLabel="" formatLanguage="EN" formatLink="http://tempuri.org" formatNamespace="" formatSource="" note="" typeDefinition="" typeLabel="" typeLanguage="EN" typeLink="http://tempuri.org" typeNamespace="" typeSource="">desc:relationIdentifier</desc:relationIdentifier>
+                      <desc:relationLink>http://tempuri.org</desc:relationLink>
+                    </desc:isSeriesOf>
+                    <desc:hasSeries note="" orderedGroupFlag="true" runningOrderNumber="0" totalNumberOfGroupMembers="0" typeDefinition="" typeLabel="" typeLanguage="EN" typeLink="http://tempuri.org" typeNamespace="" typeSource="">
+                      <desc:relationIdentifier attributor="" formatDefinition="" formatLabel="" formatLanguage="EN" formatLink="http://tempuri.org" formatNamespace="" formatSource="" note="" typeDefinition="" typeLabel="" typeLanguage="EN" typeLink="http://tempuri.org" typeNamespace="" typeSource="">desc:relationIdentifier</desc:relationIdentifier>
+                      <desc:relationLink>http://tempuri.org</desc:relationLink>
+                    </desc:hasSeries>
+                    <desc:isSeasonOf note="" orderedGroupFlag="true" runningOrderNumber="0" totalNumberOfGroupMembers="0" typeDefinition="" typeLabel="" typeLanguage="EN" typeLink="http://tempuri.org" typeNamespace="" typeSource="">
+                      <desc:relationIdentifier attributor="" formatDefinition="" formatLabel="" formatLanguage="EN" formatLink="http://tempuri.org" formatNamespace="" formatSource="" note="" typeDefinition="" typeLabel="" typeLanguage="EN" typeLink="http://tempuri.org" typeNamespace="" typeSource="">desc:relationIdentifier</desc:relationIdentifier>
+                      <desc:relationLink>http://tempuri.org</desc:relationLink>
+                    </desc:isSeasonOf>
+                    <desc:hasSeason note="" orderedGroupFlag="true" runningOrderNumber="0" totalNumberOfGroupMembers="0" typeDefinition="" typeLabel="" typeLanguage="EN" typeLink="http://tempuri.org" typeNamespace="" typeSource="">
+                      <desc:relationIdentifier attributor="" formatDefinition="" formatLabel="" formatLanguage="EN" formatLink="http://tempuri.org" formatNamespace="" formatSource="" note="" typeDefinition="" typeLabel="" typeLanguage="EN" typeLink="http://tempuri.org" typeNamespace="" typeSource="">desc:relationIdentifier</desc:relationIdentifier>
+                      <desc:relationLink>http://tempuri.org</desc:relationLink>
+                    </desc:hasSeason>
+                    <desc:isNextInSequence note="" orderedGroupFlag="true" runningOrderNumber="0" totalNumberOfGroupMembers="0" typeDefinition="" typeLabel="" typeLanguage="EN" typeLink="http://tempuri.org" typeNamespace="" typeSource="">
+                      <desc:relationIdentifier attributor="" formatDefinition="" formatLabel="" formatLanguage="EN" formatLink="http://tempuri.org" formatNamespace="" formatSource="" note="" typeDefinition="" typeLabel="" typeLanguage="EN" typeLink="http://tempuri.org" typeNamespace="" typeSource="">desc:relationIdentifier</desc:relationIdentifier>
+                      <desc:relationLink>http://tempuri.org</desc:relationLink>
+                    </desc:isNextInSequence>
+                    <desc:followsInSequence note="" orderedGroupFlag="true" runningOrderNumber="0" totalNumberOfGroupMembers="0" typeDefinition="" typeLabel="" typeLanguage="EN" typeLink="http://tempuri.org" typeNamespace="" typeSource="">
+                      <desc:relationIdentifier attributor="" formatDefinition="" formatLabel="" formatLanguage="EN" formatLink="http://tempuri.org" formatNamespace="" formatSource="" note="" typeDefinition="" typeLabel="" typeLanguage="EN" typeLink="http://tempuri.org" typeNamespace="" typeSource="">desc:relationIdentifier</desc:relationIdentifier>
+                      <desc:relationLink>http://tempuri.org</desc:relationLink>
+                    </desc:followsInSequence>
+                    <desc:sameAs note="" orderedGroupFlag="true" runningOrderNumber="0" totalNumberOfGroupMembers="0" typeDefinition="" typeLabel="" typeLanguage="EN" typeLink="http://tempuri.org" typeNamespace="" typeSource="">
+                      <desc:relationIdentifier attributor="" formatDefinition="" formatLabel="" formatLanguage="EN" formatLink="http://tempuri.org" formatNamespace="" formatSource="" note="" typeDefinition="" typeLabel="" typeLanguage="EN" typeLink="http://tempuri.org" typeNamespace="" typeSource="">desc:relationIdentifier</desc:relationIdentifier>
+                      <desc:relationLink>http://tempuri.org</desc:relationLink>
+                    </desc:sameAs>
+                    <desc:isMemberOf note="" orderedGroupFlag="true" runningOrderNumber="0" totalNumberOfGroupMembers="0" typeDefinition="" typeLabel="" typeLanguage="EN" typeLink="http://tempuri.org" typeNamespace="" typeSource="">
+                      <desc:relationIdentifier attributor="" formatDefinition="" formatLabel="" formatLanguage="EN" formatLink="http://tempuri.org" formatNamespace="" formatSource="" note="" typeDefinition="" typeLabel="" typeLanguage="EN" typeLink="http://tempuri.org" typeNamespace="" typeSource="">desc:relationIdentifier</desc:relationIdentifier>
+                      <desc:relationLink>http://tempuri.org</desc:relationLink>
+                    </desc:isMemberOf>
+                    <desc:hasMember note="" orderedGroupFlag="true" runningOrderNumber="0" totalNumberOfGroupMembers="0" typeDefinition="" typeLabel="" typeLanguage="EN" typeLink="http://tempuri.org" typeNamespace="" typeSource="">
+                      <desc:relationIdentifier attributor="" formatDefinition="" formatLabel="" formatLanguage="EN" formatLink="http://tempuri.org" formatNamespace="" formatSource="" note="" typeDefinition="" typeLabel="" typeLanguage="EN" typeLink="http://tempuri.org" typeNamespace="" typeSource="">desc:relationIdentifier</desc:relationIdentifier>
+                      <desc:relationLink>http://tempuri.org</desc:relationLink>
+                    </desc:hasMember>
+                    <desc:coverage typeDefinition="" typeLabel="" typeLanguage="EN" typeLink="http://tempuri.org" typeNamespace="" typeSource="">
+                      <desc:temporal desc:lang="EN" endDate="2001-01-01" endTime="12:00:00" endYear="2001" period="" periodId="http://tempuri.org" startDate="2001-01-01" startTime="12:00:00" startYear="2001" typeDefinition="" typeLabel="" typeLanguage="EN" typeLink="http://tempuri.org" typeNamespace="" typeSource="">desc:temporal</desc:temporal>
+                      <desc:spatial>
+                        <desc:locationName desc:lang="EN" note="" typeDefinition="" typeLabel="" typeLanguage="EN" typeLink="http://tempuri.org" typeNamespace="" typeSource="">desc:locationName</desc:locationName>
+                        <desc:coordinates formatDefinition="" formatLabel="" formatLanguage="EN" formatLink="http://tempuri.org" formatNamespace="" formatSource="">
+                          <desc:posy>0.0</desc:posy>
+                          <desc:posx>0.0</desc:posx>
+                        </desc:coordinates>
+                        <desc:code>http://tempuri.org</desc:code>
+                        <desc:region>
+                          <desc:country typeDefinition="" typeLabel="" typeLanguage="EN" typeLink="http://tempuri.org" typeNamespace="" typeSource=""/>
+                          <desc:countryRegion typeDefinition="" typeLabel="" typeLanguage="EN" typeLink="http://tempuri.org" typeNamespace="" typeSource=""/>
+                        </desc:region>
+                      </desc:spatial>
+                    </desc:coverage>
+                    <desc:rights formatIDRefs="http://tempuri.org" note="" rightsID="http://tempuri.org" typeDefinition="" typeLabel="" typeLanguage="EN" typeLink="http://tempuri.org" typeNamespace="" typeSource="">
+                      <desc:rightsExpression desc:lang="EN" xsi:type="desc:textElementType">desc:rightsExpression</desc:rightsExpression>
+                      <desc:rightsLink>http://tempuri.org</desc:rightsLink>
+                      <desc:rightsHolder entityId="http://tempuri.org">
+                        <desc:contactDetails contactId="http://tempuri.org" lastUpdate="2001-01-01" typeDefinition="" typeLabel="" typeLanguage="EN" typeLink="http://tempuri.org" typeNamespace="" typeSource="">
+                          <desc:name desc:lang="EN" formatDefinition="" formatLabel="" formatLanguage="EN" formatLink="http://tempuri.org" formatNamespace="" formatSource="" typeDefinition="" typeLabel="" typeLanguage="EN" typeLink="http://tempuri.org" typeNamespace="" typeSource="">desc:name</desc:name>
+                          <desc:birthDate>2001-01-01</desc:birthDate>
+                          <desc:deathDate>2001-01-01</desc:deathDate>
+                          <desc:birthPlace>desc:birthPlace</desc:birthPlace>
+                          <desc:nationality>desc:nationality</desc:nationality>
+                          <desc:username desc:lang="EN" xsi:type="desc:textElementType">desc:username</desc:username>
+                          <desc:occupation desc:lang="EN" xsi:type="desc:textElementType">desc:occupation</desc:occupation>
+                          <desc:details typeDefinition="" typeLabel="" typeLanguage="EN" typeLink="http://tempuri.org" typeNamespace="" typeSource="">
+                            <desc:emailAddress>desc:emailAddress</desc:emailAddress>
+                            <desc:webAddress>desc:webAddress</desc:webAddress>
+                            <desc:address>
+                              <desc:addressLine desc:lang="EN" xsi:type="desc:textElementType">desc:addressLine</desc:addressLine>
+                              <desc:addressTownCity desc:lang="EN" xsi:type="desc:textElementType">desc:addressTownCity</desc:addressTownCity>
+                              <desc:addressCountyState desc:lang="EN" xsi:type="desc:textElementType">desc:addressCountyState</desc:addressCountyState>
+                              <desc:addressDeliveryCode>desc:addressDeliveryCode</desc:addressDeliveryCode>
+                              <desc:country typeDefinition="" typeLabel="" typeLanguage="EN" typeLink="http://tempuri.org" typeNamespace="" typeSource=""/>
+                            </desc:address>
+                            <desc:telephoneNumber>desc:telephoneNumber</desc:telephoneNumber>
+                            <desc:mobileTelephoneNumber>desc:mobileTelephoneNumber</desc:mobileTelephoneNumber>
+                          </desc:details>
+                          <desc:stageName desc:lang="EN" xsi:type="desc:textElementType">desc:stageName</desc:stageName>
+                          <desc:guest>true</desc:guest>
+                          <desc:gender desc:lang="EN" xsi:type="desc:textElementType">desc:gender</desc:gender>
+                          <desc:nickname desc:lang="EN" xsi:type="desc:textElementType">desc:nickname</desc:nickname>
+                          <desc:affiliation desc:lang="EN" xsi:type="desc:textElementType">desc:affiliation</desc:affiliation>
+                          <desc:relatedInformationLink typeDefinition="" typeLabel="" typeLanguage="EN" typeLink="http://tempuri.org" typeNamespace="" typeSource="">http://tempuri.org</desc:relatedInformationLink>
+                          <desc:relatedContacts entityId="http://tempuri.org"/>
+                          <desc:skill>desc:skill</desc:skill>
+                        </desc:contactDetails>
+                        <desc:organisationDetails lastUpdate="2001-01-01" linkToLogo="http://tempuri.org" organisationId="http://tempuri.org" typeDefinition="" typeLabel="" typeLanguage="EN" typeLink="http://tempuri.org" typeNamespace="" typeSource="">
+                          <desc:organisationName desc:lang="EN" formatDefinition="" formatLabel="" formatLanguage="EN" formatLink="http://tempuri.org" formatNamespace="" formatSource="" typeDefinition="" typeLabel="" typeLanguage="EN" typeLink="http://tempuri.org" typeNamespace="" typeSource="">desc:organisationName</desc:organisationName>
+                          <desc:organisationCode attributor="" formatDefinition="" formatLabel="" formatLanguage="EN" formatLink="http://tempuri.org" formatNamespace="" formatSource="" note="" typeDefinition="" typeLabel="" typeLanguage="EN" typeLink="http://tempuri.org" typeNamespace="" typeSource="">desc:organisationCode</desc:organisationCode>
+                          <desc:organisationDescription desc:lang="EN" xsi:type="desc:textElementType">desc:organisationDescription</desc:organisationDescription>
+                          <desc:organisationNationality>desc:organisationNationality</desc:organisationNationality>
+                          <desc:organisationDepartment departmentId="http://tempuri.org" desc:lang="EN">desc:organisationDepartment</desc:organisationDepartment>
+                          <desc:details typeDefinition="" typeLabel="" typeLanguage="EN" typeLink="http://tempuri.org" typeNamespace="" typeSource="">
+                            <desc:emailAddress>desc:emailAddress</desc:emailAddress>
+                            <desc:webAddress>desc:webAddress</desc:webAddress>
+                            <desc:address>
+                              <desc:addressLine desc:lang="EN" xsi:type="desc:textElementType">desc:addressLine</desc:addressLine>
+                              <desc:addressTownCity desc:lang="EN" xsi:type="desc:textElementType">desc:addressTownCity</desc:addressTownCity>
+                              <desc:addressCountyState desc:lang="EN" xsi:type="desc:textElementType">desc:addressCountyState</desc:addressCountyState>
+                              <desc:addressDeliveryCode>desc:addressDeliveryCode</desc:addressDeliveryCode>
+                              <desc:country typeDefinition="" typeLabel="" typeLanguage="EN" typeLink="http://tempuri.org" typeNamespace="" typeSource=""/>
+                            </desc:address>
+                            <desc:telephoneNumber>desc:telephoneNumber</desc:telephoneNumber>
+                            <desc:mobileTelephoneNumber>desc:mobileTelephoneNumber</desc:mobileTelephoneNumber>
+                          </desc:details>
+                          <desc:relatedInformationLink typeDefinition="" typeLabel="" typeLanguage="EN" typeLink="http://tempuri.org" typeNamespace="" typeSource="">http://tempuri.org</desc:relatedInformationLink>
+                          <desc:contacts entityId="http://tempuri.org"/>
+                        </desc:organisationDetails>
+                        <desc:role costCentre="" typeDefinition="" typeLabel="" typeLanguage="EN" typeLink="http://tempuri.org" typeNamespace="" typeSource=""/>
+                      </desc:rightsHolder>
+                      <desc:exploitationIssues desc:lang="EN" xsi:type="desc:textElementType">desc:exploitationIssues</desc:exploitationIssues>
+                      <desc:coverage typeDefinition="" typeLabel="" typeLanguage="EN" typeLink="http://tempuri.org" typeNamespace="" typeSource="">
+                        <desc:temporal desc:lang="EN" endDate="2001-01-01" endTime="12:00:00" endYear="2001" period="" periodId="http://tempuri.org" startDate="2001-01-01" startTime="12:00:00" startYear="2001" typeDefinition="" typeLabel="" typeLanguage="EN" typeLink="http://tempuri.org" typeNamespace="" typeSource="">desc:temporal</desc:temporal>
+                        <desc:spatial>
+                          <desc:locationName desc:lang="EN" note="" typeDefinition="" typeLabel="" typeLanguage="EN" typeLink="http://tempuri.org" typeNamespace="" typeSource="">desc:locationName</desc:locationName>
+                          <desc:coordinates formatDefinition="" formatLabel="" formatLanguage="EN" formatLink="http://tempuri.org" formatNamespace="" formatSource="">
+                            <desc:posy>0.0</desc:posy>
+                            <desc:posx>0.0</desc:posx>
+                          </desc:coordinates>
+                          <desc:code>http://tempuri.org</desc:code>
+                          <desc:region>
+                            <desc:country typeDefinition="" typeLabel="" typeLanguage="EN" typeLink="http://tempuri.org" typeNamespace="" typeSource=""/>
+                            <desc:countryRegion typeDefinition="" typeLabel="" typeLanguage="EN" typeLink="http://tempuri.org" typeNamespace="" typeSource=""/>
+                          </desc:region>
+                        </desc:spatial>
+                      </desc:coverage>
+                      <desc:rightsClearanceFlag>true</desc:rightsClearanceFlag>
+                      <desc:processingRestrictionFlag qualityClass="" restrictions="" typeDefinition="" typeLabel="" typeLanguage="EN" typeLink="http://tempuri.org" typeNamespace="" typeSource="">true</desc:processingRestrictionFlag>
+                      <desc:disclaimer desc:lang="EN" xsi:type="desc:textElementType">desc:disclaimer</desc:disclaimer>
+                      <desc:copyrightStatement desc:lang="EN" xsi:type="desc:textElementType">desc:copyrightStatement</desc:copyrightStatement>
+                      <desc:rightsId attributor="" formatDefinition="" formatLabel="" formatLanguage="EN" formatLink="http://tempuri.org" formatNamespace="" formatSource="" note="" typeDefinition="" typeLabel="" typeLanguage="EN" typeLink="http://tempuri.org" typeNamespace="" typeSource="">desc:rightsId</desc:rightsId>
+                      <desc:contactDetails contactId="http://tempuri.org" lastUpdate="2001-01-01" typeDefinition="" typeLabel="" typeLanguage="EN" typeLink="http://tempuri.org" typeNamespace="" typeSource="">
+                        <desc:name desc:lang="EN" formatDefinition="" formatLabel="" formatLanguage="EN" formatLink="http://tempuri.org" formatNamespace="" formatSource="" typeDefinition="" typeLabel="" typeLanguage="EN" typeLink="http://tempuri.org" typeNamespace="" typeSource="">desc:name</desc:name>
+                        <desc:birthDate>2001-01-01</desc:birthDate>
+                        <desc:deathDate>2001-01-01</desc:deathDate>
+                        <desc:birthPlace>desc:birthPlace</desc:birthPlace>
+                        <desc:nationality>desc:nationality</desc:nationality>
+                        <desc:username desc:lang="EN" xsi:type="desc:textElementType">desc:username</desc:username>
+                        <desc:occupation desc:lang="EN" xsi:type="desc:textElementType">desc:occupation</desc:occupation>
+                        <desc:details typeDefinition="" typeLabel="" typeLanguage="EN" typeLink="http://tempuri.org" typeNamespace="" typeSource="">
+                          <desc:emailAddress>desc:emailAddress</desc:emailAddress>
+                          <desc:webAddress>desc:webAddress</desc:webAddress>
+                          <desc:address>
+                            <desc:addressLine desc:lang="EN" xsi:type="desc:textElementType">desc:addressLine</desc:addressLine>
+                            <desc:addressTownCity desc:lang="EN" xsi:type="desc:textElementType">desc:addressTownCity</desc:addressTownCity>
+                            <desc:addressCountyState desc:lang="EN" xsi:type="desc:textElementType">desc:addressCountyState</desc:addressCountyState>
+                            <desc:addressDeliveryCode>desc:addressDeliveryCode</desc:addressDeliveryCode>
+                            <desc:country typeDefinition="" typeLabel="" typeLanguage="EN" typeLink="http://tempuri.org" typeNamespace="" typeSource=""/>
+                          </desc:address>
+                          <desc:telephoneNumber>desc:telephoneNumber</desc:telephoneNumber>
+                          <desc:mobileTelephoneNumber>desc:mobileTelephoneNumber</desc:mobileTelephoneNumber>
+                        </desc:details>
+                        <desc:stageName desc:lang="EN" xsi:type="desc:textElementType">desc:stageName</desc:stageName>
+                        <desc:guest>true</desc:guest>
+                        <desc:gender desc:lang="EN" xsi:type="desc:textElementType">desc:gender</desc:gender>
+                        <desc:nickname desc:lang="EN" xsi:type="desc:textElementType">desc:nickname</desc:nickname>
+                        <desc:affiliation desc:lang="EN" xsi:type="desc:textElementType">desc:affiliation</desc:affiliation>
+                        <desc:relatedInformationLink typeDefinition="" typeLabel="" typeLanguage="EN" typeLink="http://tempuri.org" typeNamespace="" typeSource="">http://tempuri.org</desc:relatedInformationLink>
+                        <desc:relatedContacts entityId="http://tempuri.org">
+                          <desc:contactDetails contactId="http://tempuri.org" lastUpdate="2001-01-01" typeDefinition="" typeLabel="" typeLanguage="EN" typeLink="http://tempuri.org" typeNamespace="" typeSource=""/>
+                          <desc:organisationDetails lastUpdate="2001-01-01" linkToLogo="http://tempuri.org" organisationId="http://tempuri.org" typeDefinition="" typeLabel="" typeLanguage="EN" typeLink="http://tempuri.org" typeNamespace="" typeSource="">
+                            <desc:organisationName desc:lang="EN" formatDefinition="" formatLabel="" formatLanguage="EN" formatLink="http://tempuri.org" formatNamespace="" formatSource="" typeDefinition="" typeLabel="" typeLanguage="EN" typeLink="http://tempuri.org" typeNamespace="" typeSource="">desc:organisationName</desc:organisationName>
+                            <desc:organisationCode attributor="" formatDefinition="" formatLabel="" formatLanguage="EN" formatLink="http://tempuri.org" formatNamespace="" formatSource="" note="" typeDefinition="" typeLabel="" typeLanguage="EN" typeLink="http://tempuri.org" typeNamespace="" typeSource="">desc:organisationCode</desc:organisationCode>
+                            <desc:organisationDescription desc:lang="EN" xsi:type="desc:textElementType">desc:organisationDescription</desc:organisationDescription>
+                            <desc:organisationNationality>desc:organisationNationality</desc:organisationNationality>
+                            <desc:organisationDepartment departmentId="http://tempuri.org" desc:lang="EN">desc:organisationDepartment</desc:organisationDepartment>
+                            <desc:details typeDefinition="" typeLabel="" typeLanguage="EN" typeLink="http://tempuri.org" typeNamespace="" typeSource="">
+                              <desc:emailAddress>desc:emailAddress</desc:emailAddress>
+                              <desc:webAddress>desc:webAddress</desc:webAddress>
+                              <desc:address>
+                                <desc:addressLine desc:lang="EN" xsi:type="desc:textElementType">desc:addressLine</desc:addressLine>
+                                <desc:addressTownCity desc:lang="EN" xsi:type="desc:textElementType">desc:addressTownCity</desc:addressTownCity>
+                                <desc:addressCountyState desc:lang="EN" xsi:type="desc:textElementType">desc:addressCountyState</desc:addressCountyState>
+                                <desc:addressDeliveryCode>desc:addressDeliveryCode</desc:addressDeliveryCode>
+                                <desc:country typeDefinition="" typeLabel="" typeLanguage="EN" typeLink="http://tempuri.org" typeNamespace="" typeSource=""/>
+                              </desc:address>
+                              <desc:telephoneNumber>desc:telephoneNumber</desc:telephoneNumber>
+                              <desc:mobileTelephoneNumber>desc:mobileTelephoneNumber</desc:mobileTelephoneNumber>
+                            </desc:details>
+                            <desc:relatedInformationLink typeDefinition="" typeLabel="" typeLanguage="EN" typeLink="http://tempuri.org" typeNamespace="" typeSource="">http://tempuri.org</desc:relatedInformationLink>
+                            <desc:contacts entityId="http://tempuri.org"/>
+                          </desc:organisationDetails>
+                          <desc:role costCentre="" typeDefinition="" typeLabel="" typeLanguage="EN" typeLink="http://tempuri.org" typeNamespace="" typeSource=""/>
+                        </desc:relatedContacts>
+                        <desc:skill>desc:skill</desc:skill>
+                      </desc:contactDetails>
+                    </desc:rights>
+                    <desc:version desc:lang="EN" typeDefinition="" typeLabel="" typeLanguage="EN" typeLink="http://tempuri.org" typeNamespace="" typeSource="">desc:version</desc:version>
+                    <desc:rating adultContent="true" formatDefinition="" formatLabel="" formatLanguage="EN" formatLink="http://tempuri.org" formatNamespace="" formatSource="" linkToLogo="http://tempuri.org" notRated="true" ratingEnvironment="" ratingSystem="" reason="" typeDefinition="" typeLabel="" typeLanguage="EN" typeLink="http://tempuri.org" typeNamespace="" typeSource="">
+                      <desc:ratingValue desc:lang="EN" xsi:type="desc:textElementType">desc:ratingValue</desc:ratingValue>
+                      <desc:ratingLink>http://tempuri.org</desc:ratingLink>
+                      <desc:ratingScaleMaxValue desc:lang="EN" xsi:type="desc:textElementType">desc:ratingScaleMaxValue</desc:ratingScaleMaxValue>
+                      <desc:ratingScaleMinValue desc:lang="EN" xsi:type="desc:textElementType">desc:ratingScaleMinValue</desc:ratingScaleMinValue>
+                      <desc:ratingProvider entityId="http://tempuri.org">
+                        <desc:contactDetails contactId="http://tempuri.org" lastUpdate="2001-01-01" typeDefinition="" typeLabel="" typeLanguage="EN" typeLink="http://tempuri.org" typeNamespace="" typeSource="">
+                          <desc:name desc:lang="EN" formatDefinition="" formatLabel="" formatLanguage="EN" formatLink="http://tempuri.org" formatNamespace="" formatSource="" typeDefinition="" typeLabel="" typeLanguage="EN" typeLink="http://tempuri.org" typeNamespace="" typeSource="">desc:name</desc:name>
+                          <desc:birthDate>2001-01-01</desc:birthDate>
+                          <desc:deathDate>2001-01-01</desc:deathDate>
+                          <desc:birthPlace>desc:birthPlace</desc:birthPlace>
+                          <desc:nationality>desc:nationality</desc:nationality>
+                          <desc:username desc:lang="EN" xsi:type="desc:textElementType">desc:username</desc:username>
+                          <desc:occupation desc:lang="EN" xsi:type="desc:textElementType">desc:occupation</desc:occupation>
+                          <desc:details typeDefinition="" typeLabel="" typeLanguage="EN" typeLink="http://tempuri.org" typeNamespace="" typeSource="">
+                            <desc:emailAddress>desc:emailAddress</desc:emailAddress>
+                            <desc:webAddress>desc:webAddress</desc:webAddress>
+                            <desc:address>
+                              <desc:addressLine desc:lang="EN" xsi:type="desc:textElementType">desc:addressLine</desc:addressLine>
+                              <desc:addressTownCity desc:lang="EN" xsi:type="desc:textElementType">desc:addressTownCity</desc:addressTownCity>
+                              <desc:addressCountyState desc:lang="EN" xsi:type="desc:textElementType">desc:addressCountyState</desc:addressCountyState>
+                              <desc:addressDeliveryCode>desc:addressDeliveryCode</desc:addressDeliveryCode>
+                              <desc:country typeDefinition="" typeLabel="" typeLanguage="EN" typeLink="http://tempuri.org" typeNamespace="" typeSource=""/>
+                            </desc:address>
+                            <desc:telephoneNumber>desc:telephoneNumber</desc:telephoneNumber>
+                            <desc:mobileTelephoneNumber>desc:mobileTelephoneNumber</desc:mobileTelephoneNumber>
+                          </desc:details>
+                          <desc:stageName desc:lang="EN" xsi:type="desc:textElementType">desc:stageName</desc:stageName>
+                          <desc:guest>true</desc:guest>
+                          <desc:gender desc:lang="EN" xsi:type="desc:textElementType">desc:gender</desc:gender>
+                          <desc:nickname desc:lang="EN" xsi:type="desc:textElementType">desc:nickname</desc:nickname>
+                          <desc:affiliation desc:lang="EN" xsi:type="desc:textElementType">desc:affiliation</desc:affiliation>
+                          <desc:relatedInformationLink typeDefinition="" typeLabel="" typeLanguage="EN" typeLink="http://tempuri.org" typeNamespace="" typeSource="">http://tempuri.org</desc:relatedInformationLink>
+                          <desc:relatedContacts entityId="http://tempuri.org"/>
+                          <desc:skill>desc:skill</desc:skill>
+                        </desc:contactDetails>
+                        <desc:organisationDetails lastUpdate="2001-01-01" linkToLogo="http://tempuri.org" organisationId="http://tempuri.org" typeDefinition="" typeLabel="" typeLanguage="EN" typeLink="http://tempuri.org" typeNamespace="" typeSource="">
+                          <desc:organisationName desc:lang="EN" formatDefinition="" formatLabel="" formatLanguage="EN" formatLink="http://tempuri.org" formatNamespace="" formatSource="" typeDefinition="" typeLabel="" typeLanguage="EN" typeLink="http://tempuri.org" typeNamespace="" typeSource="">desc:organisationName</desc:organisationName>
+                          <desc:organisationCode attributor="" formatDefinition="" formatLabel="" formatLanguage="EN" formatLink="http://tempuri.org" formatNamespace="" formatSource="" note="" typeDefinition="" typeLabel="" typeLanguage="EN" typeLink="http://tempuri.org" typeNamespace="" typeSource="">desc:organisationCode</desc:organisationCode>
+                          <desc:organisationDescription desc:lang="EN" xsi:type="desc:textElementType">desc:organisationDescription</desc:organisationDescription>
+                          <desc:organisationNationality>desc:organisationNationality</desc:organisationNationality>
+                          <desc:organisationDepartment departmentId="http://tempuri.org" desc:lang="EN">desc:organisationDepartment</desc:organisationDepartment>
+                          <desc:details typeDefinition="" typeLabel="" typeLanguage="EN" typeLink="http://tempuri.org" typeNamespace="" typeSource="">
+                            <desc:emailAddress>desc:emailAddress</desc:emailAddress>
+                            <desc:webAddress>desc:webAddress</desc:webAddress>
+                            <desc:address>
+                              <desc:addressLine desc:lang="EN" xsi:type="desc:textElementType">desc:addressLine</desc:addressLine>
+                              <desc:addressTownCity desc:lang="EN" xsi:type="desc:textElementType">desc:addressTownCity</desc:addressTownCity>
+                              <desc:addressCountyState desc:lang="EN" xsi:type="desc:textElementType">desc:addressCountyState</desc:addressCountyState>
+                              <desc:addressDeliveryCode>desc:addressDeliveryCode</desc:addressDeliveryCode>
+                              <desc:country typeDefinition="" typeLabel="" typeLanguage="EN" typeLink="http://tempuri.org" typeNamespace="" typeSource=""/>
+                            </desc:address>
+                            <desc:telephoneNumber>desc:telephoneNumber</desc:telephoneNumber>
+                            <desc:mobileTelephoneNumber>desc:mobileTelephoneNumber</desc:mobileTelephoneNumber>
+                          </desc:details>
+                          <desc:relatedInformationLink typeDefinition="" typeLabel="" typeLanguage="EN" typeLink="http://tempuri.org" typeNamespace="" typeSource="">http://tempuri.org</desc:relatedInformationLink>
+                          <desc:contacts entityId="http://tempuri.org"/>
+                        </desc:organisationDetails>
+                        <desc:role costCentre="" typeDefinition="" typeLabel="" typeLanguage="EN" typeLink="http://tempuri.org" typeNamespace="" typeSource=""/>
+                      </desc:ratingProvider>
+                      <desc:ratingRegion>
+                        <desc:country typeDefinition="" typeLabel="" typeLanguage="EN" typeLink="http://tempuri.org" typeNamespace="" typeSource=""/>
+                        <desc:countryRegion typeDefinition="" typeLabel="" typeLanguage="EN" typeLink="http://tempuri.org" typeNamespace="" typeSource=""/>
+                      </desc:ratingRegion>
+                      <desc:ratingExclusionRegion>
+                        <desc:country typeDefinition="" typeLabel="" typeLanguage="EN" typeLink="http://tempuri.org" typeNamespace="" typeSource=""/>
+                        <desc:countryRegion typeDefinition="" typeLabel="" typeLanguage="EN" typeLink="http://tempuri.org" typeNamespace="" typeSource=""/>
+                      </desc:ratingExclusionRegion>
+                    </desc:rating>
+                    <desc:audienceRating adultContent="true" formatDefinition="" formatLabel="" formatLanguage="EN" formatLink="http://tempuri.org" formatNamespace="" formatSource="" linkToLogo="http://tempuri.org" notRated="true" ratingEnvironment="" ratingSystem="" reason="" typeDefinition="" typeLabel="" typeLanguage="EN" typeLink="http://tempuri.org" typeNamespace="" typeSource="">
+                      <desc:ratingValue desc:lang="EN" xsi:type="desc:textElementType">desc:ratingValue</desc:ratingValue>
+                      <desc:ratingLink>http://tempuri.org</desc:ratingLink>
+                      <desc:ratingScaleMaxValue desc:lang="EN" xsi:type="desc:textElementType">desc:ratingScaleMaxValue</desc:ratingScaleMaxValue>
+                      <desc:ratingScaleMinValue desc:lang="EN" xsi:type="desc:textElementType">desc:ratingScaleMinValue</desc:ratingScaleMinValue>
+                      <desc:ratingProvider entityId="http://tempuri.org">
+                        <desc:contactDetails contactId="http://tempuri.org" lastUpdate="2001-01-01" typeDefinition="" typeLabel="" typeLanguage="EN" typeLink="http://tempuri.org" typeNamespace="" typeSource="">
+                          <desc:name desc:lang="EN" formatDefinition="" formatLabel="" formatLanguage="EN" formatLink="http://tempuri.org" formatNamespace="" formatSource="" typeDefinition="" typeLabel="" typeLanguage="EN" typeLink="http://tempuri.org" typeNamespace="" typeSource="">desc:name</desc:name>
+                          <desc:birthDate>2001-01-01</desc:birthDate>
+                          <desc:deathDate>2001-01-01</desc:deathDate>
+                          <desc:birthPlace>desc:birthPlace</desc:birthPlace>
+                          <desc:nationality>desc:nationality</desc:nationality>
+                          <desc:username desc:lang="EN" xsi:type="desc:textElementType">desc:username</desc:username>
+                          <desc:occupation desc:lang="EN" xsi:type="desc:textElementType">desc:occupation</desc:occupation>
+                          <desc:details typeDefinition="" typeLabel="" typeLanguage="EN" typeLink="http://tempuri.org" typeNamespace="" typeSource="">
+                            <desc:emailAddress>desc:emailAddress</desc:emailAddress>
+                            <desc:webAddress>desc:webAddress</desc:webAddress>
+                            <desc:address>
+                              <desc:addressLine desc:lang="EN" xsi:type="desc:textElementType">desc:addressLine</desc:addressLine>
+                              <desc:addressTownCity desc:lang="EN" xsi:type="desc:textElementType">desc:addressTownCity</desc:addressTownCity>
+                              <desc:addressCountyState desc:lang="EN" xsi:type="desc:textElementType">desc:addressCountyState</desc:addressCountyState>
+                              <desc:addressDeliveryCode>desc:addressDeliveryCode</desc:addressDeliveryCode>
+                              <desc:country typeDefinition="" typeLabel="" typeLanguage="EN" typeLink="http://tempuri.org" typeNamespace="" typeSource=""/>
+                            </desc:address>
+                            <desc:telephoneNumber>desc:telephoneNumber</desc:telephoneNumber>
+                            <desc:mobileTelephoneNumber>desc:mobileTelephoneNumber</desc:mobileTelephoneNumber>
+                          </desc:details>
+                          <desc:stageName desc:lang="EN" xsi:type="desc:textElementType">desc:stageName</desc:stageName>
+                          <desc:guest>true</desc:guest>
+                          <desc:gender desc:lang="EN" xsi:type="desc:textElementType">desc:gender</desc:gender>
+                          <desc:nickname desc:lang="EN" xsi:type="desc:textElementType">desc:nickname</desc:nickname>
+                          <desc:affiliation desc:lang="EN" xsi:type="desc:textElementType">desc:affiliation</desc:affiliation>
+                          <desc:relatedInformationLink typeDefinition="" typeLabel="" typeLanguage="EN" typeLink="http://tempuri.org" typeNamespace="" typeSource="">http://tempuri.org</desc:relatedInformationLink>
+                          <desc:relatedContacts entityId="http://tempuri.org"/>
+                          <desc:skill>desc:skill</desc:skill>
+                        </desc:contactDetails>
+                        <desc:organisationDetails lastUpdate="2001-01-01" linkToLogo="http://tempuri.org" organisationId="http://tempuri.org" typeDefinition="" typeLabel="" typeLanguage="EN" typeLink="http://tempuri.org" typeNamespace="" typeSource="">
+                          <desc:organisationName desc:lang="EN" formatDefinition="" formatLabel="" formatLanguage="EN" formatLink="http://tempuri.org" formatNamespace="" formatSource="" typeDefinition="" typeLabel="" typeLanguage="EN" typeLink="http://tempuri.org" typeNamespace="" typeSource="">desc:organisationName</desc:organisationName>
+                          <desc:organisationCode attributor="" formatDefinition="" formatLabel="" formatLanguage="EN" formatLink="http://tempuri.org" formatNamespace="" formatSource="" note="" typeDefinition="" typeLabel="" typeLanguage="EN" typeLink="http://tempuri.org" typeNamespace="" typeSource="">desc:organisationCode</desc:organisationCode>
+                          <desc:organisationDescription desc:lang="EN" xsi:type="desc:textElementType">desc:organisationDescription</desc:organisationDescription>
+                          <desc:organisationNationality>desc:organisationNationality</desc:organisationNationality>
+                          <desc:organisationDepartment departmentId="http://tempuri.org" desc:lang="EN">desc:organisationDepartment</desc:organisationDepartment>
+                          <desc:details typeDefinition="" typeLabel="" typeLanguage="EN" typeLink="http://tempuri.org" typeNamespace="" typeSource="">
+                            <desc:emailAddress>desc:emailAddress</desc:emailAddress>
+                            <desc:webAddress>desc:webAddress</desc:webAddress>
+                            <desc:address>
+                              <desc:addressLine desc:lang="EN" xsi:type="desc:textElementType">desc:addressLine</desc:addressLine>
+                              <desc:addressTownCity desc:lang="EN" xsi:type="desc:textElementType">desc:addressTownCity</desc:addressTownCity>
+                              <desc:addressCountyState desc:lang="EN" xsi:type="desc:textElementType">desc:addressCountyState</desc:addressCountyState>
+                              <desc:addressDeliveryCode>desc:addressDeliveryCode</desc:addressDeliveryCode>
+                              <desc:country typeDefinition="" typeLabel="" typeLanguage="EN" typeLink="http://tempuri.org" typeNamespace="" typeSource=""/>
+                            </desc:address>
+                            <desc:telephoneNumber>desc:telephoneNumber</desc:telephoneNumber>
+                            <desc:mobileTelephoneNumber>desc:mobileTelephoneNumber</desc:mobileTelephoneNumber>
+                          </desc:details>
+                          <desc:relatedInformationLink typeDefinition="" typeLabel="" typeLanguage="EN" typeLink="http://tempuri.org" typeNamespace="" typeSource="">http://tempuri.org</desc:relatedInformationLink>
+                          <desc:contacts entityId="http://tempuri.org"/>
+                        </desc:organisationDetails>
+                        <desc:role costCentre="" typeDefinition="" typeLabel="" typeLanguage="EN" typeLink="http://tempuri.org" typeNamespace="" typeSource=""/>
+                      </desc:ratingProvider>
+                      <desc:ratingRegion>
+                        <desc:country typeDefinition="" typeLabel="" typeLanguage="EN" typeLink="http://tempuri.org" typeNamespace="" typeSource=""/>
+                        <desc:countryRegion typeDefinition="" typeLabel="" typeLanguage="EN" typeLink="http://tempuri.org" typeNamespace="" typeSource=""/>
+                      </desc:ratingRegion>
+                      <desc:ratingExclusionRegion>
+                        <desc:country typeDefinition="" typeLabel="" typeLanguage="EN" typeLink="http://tempuri.org" typeNamespace="" typeSource=""/>
+                        <desc:countryRegion typeDefinition="" typeLabel="" typeLanguage="EN" typeLink="http://tempuri.org" typeNamespace="" typeSource=""/>
+                      </desc:ratingExclusionRegion>
+                    </desc:audienceRating>
+                    <desc:part desc:lang="EN" partDefinition="" partId="NMTOKEN" partName="" partNumber="0" partTotalNumber="0" typeDefinition="" typeLabel="" typeLanguage="EN" typeLink="http://tempuri.org" typeNamespace="" typeSource="">
+                      <desc:partStartTime>
+                        <tim:timecode>tim:timecode</tim:timecode>
+                      </desc:partStartTime>
+                      <desc:partDuration>
+                        <tim:timecode>tim:timecode</tim:timecode>
+                      </desc:partDuration>
+                    </desc:part>
+                  </desc:bmContentDescription>
+                </bms:description>
+              </bms:descriptions>
+              <bms:status>
+                <bms:resourceID>bms:resourceID</bms:resourceID>
+                <bms:revisionID>NMTOKEN</bms:revisionID>
+                <bms:location>http://tempuri.org</bms:location>
+                <bms:resourceCreationDate>2001-12-31T12:00:00</bms:resourceCreationDate>
+                <bms:resourceModifiedDate>2001-12-31T12:00:00</bms:resourceModifiedDate>
+                <bms:serviceGeneratedElement>true</bms:serviceGeneratedElement>
+                <bms:isFullyPopulated>true</bms:isFullyPopulated>
+                <bms:notifyAt>
+                  <bms:replyTo>http://tempuri.org</bms:replyTo>
+                  <bms:faultTo>http://tempuri.org</bms:faultTo>
+                </bms:notifyAt>
+                <bms:ExtensionGroup/>
+                <bms:ExtensionAttributes/>
+                <bms:status>new</bms:status>
+                <bms:subStatus>
+                  <bms:resourceID>bms:resourceID</bms:resourceID>
+                  <bms:revisionID>NMTOKEN</bms:revisionID>
+                  <bms:location>http://tempuri.org</bms:location>
+                  <bms:resourceCreationDate>2001-12-31T12:00:00</bms:resourceCreationDate>
+                  <bms:resourceModifiedDate>2001-12-31T12:00:00</bms:resourceModifiedDate>
+                  <bms:serviceGeneratedElement>true</bms:serviceGeneratedElement>
+                  <bms:isFullyPopulated>true</bms:isFullyPopulated>
+                  <bms:notifyAt>
+                    <bms:replyTo>http://tempuri.org</bms:replyTo>
+                    <bms:faultTo>http://tempuri.org</bms:faultTo>
+                  </bms:notifyAt>
+                  <bms:ExtensionGroup/>
+                  <bms:ExtensionAttributes/>
+                  <bms:code>bms:code</bms:code>
+                  <bms:description>bms:description</bms:description>
+                </bms:subStatus>
+              </bms:status>
+              <bms:timelines>
+                <bms:timeline typeDefinition="" typeLabel="" typeLink="http://tempuri.org">
+                  <bms:resourceID>bms:resourceID</bms:resourceID>
+                  <bms:revisionID>NMTOKEN</bms:revisionID>
+                  <bms:location>http://tempuri.org</bms:location>
+                  <bms:resourceCreationDate>2001-12-31T12:00:00</bms:resourceCreationDate>
+                  <bms:resourceModifiedDate>2001-12-31T12:00:00</bms:resourceModifiedDate>
+                  <bms:serviceGeneratedElement>true</bms:serviceGeneratedElement>
+                  <bms:isFullyPopulated>true</bms:isFullyPopulated>
+                  <bms:notifyAt>
+                    <bms:replyTo>http://tempuri.org</bms:replyTo>
+                    <bms:faultTo>http://tempuri.org</bms:faultTo>
+                  </bms:notifyAt>
+                  <bms:ExtensionGroup/>
+                  <bms:ExtensionAttributes/>
+                  <bms:segment xsi:type="bms:SegmentType">
+                    <bms:resourceID>bms:resourceID</bms:resourceID>
+                    <bms:revisionID>NMTOKEN</bms:revisionID>
+                    <bms:location>http://tempuri.org</bms:location>
+                    <bms:resourceCreationDate>2001-12-31T12:00:00</bms:resourceCreationDate>
+                    <bms:resourceModifiedDate>2001-12-31T12:00:00</bms:resourceModifiedDate>
+                    <bms:serviceGeneratedElement>true</bms:serviceGeneratedElement>
+                    <bms:isFullyPopulated>true</bms:isFullyPopulated>
+                    <bms:notifyAt>
+                      <bms:replyTo>http://tempuri.org</bms:replyTo>
+                      <bms:faultTo>http://tempuri.org</bms:faultTo>
+                    </bms:notifyAt>
+                    <bms:ExtensionGroup/>
+                    <bms:ExtensionAttributes/>
+                    <bms:timelines/>
+                  </bms:segment>
+                </bms:timeline>
+              </bms:timelines>
+            </bms:bmContent>
+          </bms:bmContents>
+        </bms:bmObject>
+      </bms:bmObjects>
+      <bms:priority>low</bms:priority>
+      <bms:startJob xsi:type="bms:StartJobType"/>
+      <bms:finishBefore>2001-12-31T12:00:00</bms:finishBefore>
+      <bms:estimatedCompletionDuration>P1D</bms:estimatedCompletionDuration>
+      <bms:currentQueuePosition>0</bms:currentQueuePosition>
+      <bms:jobStartedTime>2001-12-31T12:00:00</bms:jobStartedTime>
+      <bms:jobElapsedTime>P1D</bms:jobElapsedTime>
+      <bms:jobCompletedTime>2001-12-31T12:00:00</bms:jobCompletedTime>
+      <bms:processed xsi:type="bms:ProcessedInfoType">
+        <bms:percentageProcessedCompleted>0</bms:percentageProcessedCompleted>
+      </bms:processed>
+    </bms:job>
+  </bms:jobs>
+  <bms:notReportedResultsNumber>0</bms:notReportedResultsNumber>
+  <bms:ExtensionGroup/>
+  <bms:ExtensionAttributes/>
+</bms:queryJobResponse>

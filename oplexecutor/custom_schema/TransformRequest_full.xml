@@ -1,0 +1,68 @@
+<transformRequest version="" xmlns:tfms="http://transformmedia.fims.tv">
+	<transformJob>
+ 		<resourceID minOccurs="1" maxOccurs="1"></resourceID>
+ 		<revisonID></revisonID>
+ 		<location></location>
+ 		<resourceCreationDate></resourceCreationDate>
+ 		<resourceModifiedDate></resourceModifiedDate>
+ 		<serviceGeneratedElement></serviceGeneratedElement>
+ 		<isFullyPopulated></isFullyPopulated>
+ 		<notifyAt></notifyAt>
+ 		<ExtensionGroup></ExtensionGroup>
+ 		<ExtensionAttributes></ExtensionAttributes>
+ 		<status></status>
+ 		<statusDescription></statusDescription>
+ 		<serviceProviderJobID></serviceProviderJobID>
+ 		<queueReference></queueReference>
+ 		<tasks></tasks>
+ 		<operationName></operationName>
+ 		<bmObjects></bmObjects>
+ 		<priority></priority>
+ 		<startJob></startJob>
+ 		<finishBefore></finishBefore>
+ 		<estimatedCompletionDuration></estimatedCompletionDuration>
+ 		<currentQueuePosition></currentQueuePosition>
+ 		<jobStartedTime></jobStartedTime>
+ 		<jobElapsedTime></jobElapsedTime>
+ 		<jobCompletedTime></jobCompletedTime>
+ 		<processed></processed>
+ 		<profiles>
+ 			<transformProfile description="" name="" minOccurs="1" maxOccurs="unbounded">
+  				<resourceID minOccurs="1" maxOccurs="1"></resourceID>
+  				<revision></revision>
+  				<location></location>
+  				<resourceCreationDate></resourceCreationDate>
+  				<resourceModifiedDate></resourceModifiedDate>
+  				<serviceGeneratedElement></serviceGeneratedElement>
+  				<isFullyPopulated></isFullyPopulated>
+  				<notifyAt></notifyAt>
+  				<ExtensionGroup></ExtensionGroup>
+  				<ExtensionAttributes></ExtensionAttributes>
+  				<service></service>
+  				<transformAtom minOccurs="1" maxOccurs="1"></transformAtom>
+  					<videoFormat minOccurs="0" maxOccurs="1"></videoFormat>
+  					<audioFormat minOccurs="0" maxOccurs="1"></audioFormat>
+  					<containerFormat minOccurs="0" maxOccurs="1"></containerFormat>
+  					<filter filterOrder="" typeDefinition="" typeLabel="" typeLink="" minOccurs="0" maxOccurs="unbounded">
+  						<trackIdRef minOccurs="1" maxOccurs="unbounded"></trackIdRef>
+  						<filterProfile typeDefinition="" typeLabel="" typeLink="" minOccurs="1" maxOccurs="1"></filterProfile>
+  						<filterSetting filterAttributeOrder="" typeDefinition="" typeLabel="" typeLink="" minOccurs="0" maxOccurs="unbounded" xmlns:bms="http://base.fims.tv">
+  							<technicalAttribute formatDefinition="" formatLabel="" formatLink="" typeDefinition="" typeLabel="" typeLink="" unit="" minOccurs="0" maxOccurs="unbounded" xmlns:bms="http://base.fims.tv">
+  							</technicalAttribute>
+  						</filterSetting>
+  					</filter>
+  					<ExtensionGroup minOccurs="0" maxOccurs="1" xmlns:bms="http://base.fims.tv"></ExtensionGroup>
+  					<ExtensionAttributes minOccurs="0" maxOccurs="1" xmlns:bms="http://base.fims.tv"></ExtensionAttributes>
+  				<transferAtom minOccurs="1" maxOccurs="unbounded">
+  					<destination minOccurs="1" maxOccurs="1"></destination>
+  					<ExtensionGroup minOccurs="0" maxOccurs="1"></ExtensionGroup>
+  					<ExtensionAttributes minOccurs="0" maxOccurs="1"></ExtensionAttributes>
+ 		 		</transferAtom>
+ 		 		<contentPartAtom></contentPartAtom>
+ 		 		<simpleEDLAtom></simpleEDLAtom>
+ 		 		<wholeContentAtom></wholeContentAtom>
+  				<outputFileNamePattern></outputFileNamePattern>
+			</transformProfile>
+		</profiles>
+	</transformJob>
+</transformRequest>

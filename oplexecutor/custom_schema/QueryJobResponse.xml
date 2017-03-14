@@ -1,0 +1,15 @@
+<queryJobResponse version="" xmlns:xs="http://base.fims.tv">
+	<jobs>
+		<job minOccurs="1" maxOccurs="unbounded">
+			<resourceID></resourceID>
+			<location></location>
+			<resourceCreationDate></resourceCreationDate>
+			<status></status>
+			<operationName></operationName>
+			<jobStartedTime></jobStartedTime>
+			<jobElapsedTime></jobElapsedTime>
+			<jobCompletedTime></jobCompletedTime>
+			<processed></processed>
+		</job>
+	</jobs>
+</queryJobResponse>

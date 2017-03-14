@@ -1,0 +1,78 @@
+<jxb:bindings 
+    xmlns="http://java.sun.com/xml/ns/jaxb"
+    xmlns:jxb="http://java.sun.com/xml/ns/jaxb"
+    version="2.1">
+	
+	<bindings schemaLocation="baseMediaService-V1_2_0.xsd">
+		<jxb:schemaBindings>
+       		<jxb:package name="org.imf.oplexecutor.fims.bms"></jxb:package>
+    	</jxb:schemaBindings>
+	</bindings>
+	
+   <bindings schemaLocation="description-V1_2_0.xsd">
+		<jxb:schemaBindings>
+       		<jxb:package name="org.imf.oplexecutor.fims.desc"></jxb:package>
+    	</jxb:schemaBindings>
+	</bindings>
+	
+	<bindings schemaLocation="transformMedia-V1_2_0.xsd">
+		<jxb:schemaBindings>
+       		<jxb:package name="org.imf.oplexecutor.fims.tfms"></jxb:package>
+    	</jxb:schemaBindings>
+	</bindings>
+	
+	<bindings schemaLocation="baseTime-V1_2_0.xsd">
+		<jxb:schemaBindings>
+       		<jxb:package name="org.imf.oplexecutor.fims.tim"></jxb:package>
+    	</jxb:schemaBindings>
+	</bindings>
+	 
+	<bindings schemaLocation="mdcf-schema/st2071-2a.xsd">
+		<jxb:schemaBindings>
+       		<jxb:package name="org.imf.oplexecutor.fims.mdcf.a"></jxb:package>
+    	</jxb:schemaBindings>
+	</bindings>
+	
+	<bindings schemaLocation="mdcf-schema/st2071-2b.xsd">
+		<jxb:schemaBindings>
+       		<jxb:package name="org.imf.oplexecutor.fims.mdcf.b"></jxb:package>
+    	</jxb:schemaBindings>
+	</bindings>
+	
+	<bindings schemaLocation="mdcf-schema/st2071-2c.xsd">
+		<jxb:schemaBindings>
+       		<jxb:package name="org.imf.oplexecutor.fims.mdcf.c"></jxb:package>
+    	</jxb:schemaBindings>
+	</bindings>
+	
+	<bindings schemaLocation="mdcf-schema/st2071-2e.xsd">
+		<jxb:schemaBindings>
+       		<jxb:package name="org.imf.oplexecutor.fims.mdcf.e"></jxb:package>
+    	</jxb:schemaBindings>
+	</bindings>
+	
+	<bindings schemaLocation="mdcf-schema/st2071-2f.xsd">
+		<jxb:schemaBindings>
+       		<jxb:package name="org.imf.oplexecutor.fims.mdcf.f"></jxb:package>
+    	</jxb:schemaBindings>
+	</bindings>
+	
+	<bindings schemaLocation="mdcf-schema/st2071-2g.xsd">
+		<jxb:schemaBindings>
+       		<jxb:package name="org.imf.oplexecutor.fims.mdcf.g"></jxb:package>
+    	</jxb:schemaBindings>
+	</bindings>
+	
+	<bindings schemaLocation="mdcf-schema/st2071-2h.xsd">
+		<jxb:schemaBindings>
+       		<jxb:package name="org.imf.oplexecutor.fims.mdcf.h"></jxb:package>
+    	</jxb:schemaBindings>
+	</bindings>
+	
+	<bindings schemaLocation="mdcf-schema/st2071-2q.xsd">
+		<jxb:schemaBindings>
+       		<jxb:package name="org.imf.oplexecutor.fims.mdcf.q"></jxb:package>
+    	</jxb:schemaBindings>
+	</bindings>
+
+</jxb:bindings>

@@ -2,39 +2,26 @@ package org.imf.oplexecutor.model;
 
 import javax.xml.bind.annotation.XmlRootElement;
 
-@XmlRootElement
 public class Opl {
 
-	private int id;
 	private String oplId;
 	private String oplPath;
 	private String annotation;
 	private String issueDate;
 	private String cplId;
 	private String cplPath;
-	private String response;
 	
 	public Opl() {}
 
-	public Opl(int id, String oplId, String oplPath, String annotation, String issueDate, String cplId, String cplPath)
+	public Opl(String oplId, String oplPath, String annotation, String issueDate, String cplId)
 	{
-		this.id = id;
 		this.oplId = oplId;
 		this.oplPath = oplPath;
 		this.annotation = annotation;
 		this.issueDate = issueDate;
 		this.cplId = cplId;
-		this.cplPath = cplPath;
 	}
 	
-	public int getId() {
-		return id;
-	}
-
-	public void setId(int id) {
-		this.id = id;
-	}
-
 	public String getOplPath() {
 		return oplPath;
 	}
@@ -49,14 +36,6 @@ public class Opl {
 
 	public void setCplPath(String cplPath) {
 		this.cplPath = cplPath;
-	}
-
-	public String getResponse() {
-		return response;
-	}
-
-	public void setResponse(String response) {
-		this.response = response;
 	}
 
 	public String getOplId() {

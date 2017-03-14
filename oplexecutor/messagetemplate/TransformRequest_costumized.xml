@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tfms:transformRequest version="1_2_0" xmlns:bms="http://base.fims.tv" xmlns:tfms="http://transformmedia.fims.tv">
+  <transformJob>
+    <bms:resourceID>urn:uuid:6e8bc430-9c3a-11d9-9669-0800200c9a66</bms:resourceID>
+    <bms:priority>low</bms:priority>
+    <profiles>
+      <transformProfile description="" name="">
+        <bms:resourceID>urn:uuid:6e8bc430-9c3a-11d9-9669-0800200c9a66</bms:resourceID>
+        <bms:location>http://tempuri.org</bms:location>
+        <bms:notifyAt>
+          <bms:replyTo>http://tempuri.org</bms:replyTo>
+          <bms:faultTo>http://tempuri.org</bms:faultTo>
+        </bms:notifyAt>
+        <transferAtom>
+          <bms:destination>http://tempuri.org</bms:destination>
+        </transferAtom>
+        <outputFileNamePattern>outputFileNamePattern</outputFileNamePattern>
+      </transformProfile>
+    </profiles>
+  </transformJob>
+</tfms:transformRequest>

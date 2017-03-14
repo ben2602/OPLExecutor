@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<transformRequest version="1_2_0" xmlns:bms="http://base.fims.tv" xmlns:tfms="http://transformmedia.fims.tv">
+  <transformJob>
+    <resourceID></resourceID>
+    <status></status>
+    <serviceProviderJobID></serviceProviderJobID>
+    <priority></priority>
+    <profiles>
+      <transformProfile description="" name="">
+        <bms:resourceID></bms:resourceID>
+        <bms:location></bms:location>
+        <bms:resourceCreationDate></bms:resourceCreationDate>
+        <bms:notifyAt>
+          <bms:replyTo></bms:replyTo>
+          <bms:faultTo></bms:faultTo>
+        </bms:notifyAt>
+        <transferAtom>
+          <bms:destination></bms:destination>
+        </transferAtom>
+        <outputFileNamePattern></outputFileNamePattern>
+      </transformProfile>
+    </profiles>
+  </transformJob>
+</transformRequest>

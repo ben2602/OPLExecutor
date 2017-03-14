@@ -1,0 +1,18 @@
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="transformAck">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="transformJob">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element type="xs:string" name="resourceID"/>
+              <xs:element type="xs:string" name="location"/>
+              <xs:element type="xs:string" name="resourceCreationDate"/>
+              <xs:element type="xs:string" name="status"/>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

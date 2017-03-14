@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<transformRequest version="1_2_0" xmlns:tfms="http://transformmedia.fims.tv">
+  <transformJob>
+    <resourceID>urn:uuid:6e8bc430-9c3a-11d9-9669-0800200c9a66</resourceID>
+    <status>queued</status>
+    <serviceProviderJobID>10</serviceProviderJobID>
+    <priority>low</priority>
+    <profiles>
+      <transformProfile description="" name="">
+        <resourceID>urn:uuid:6e8bc430-9c3a-11d9-9669-0800200c9a66</resourceID>
+        <location>http://tempuri.org</location>
+        <resourceCreationDate>2017-03-09</resourceCreationDate>
+        <notifyAt>
+          <replyTo>http://tempuri.org</replyTo>
+          <faultTo>http://tempuri.org</faultTo>
+        </notifyAt>
+        <transferAtom>
+          <destination>http://tempuri.org</destination>
+        </transferAtom>
+        <outputFileNamePattern>outputFileNamePattern</outputFileNamePattern>
+      </transformProfile>
+    </profiles>
+  </transformJob>
+</transformRequest>
