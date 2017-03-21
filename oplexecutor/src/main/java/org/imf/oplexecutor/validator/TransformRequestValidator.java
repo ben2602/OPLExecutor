@@ -1,5 +1,6 @@
 package org.imf.oplexecutor.validator;
 
+import java.io.File;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.GregorianCalendar;
@@ -61,6 +62,22 @@ public class TransformRequestValidator {
 		if (!resourceIDtP.contains("?")) {
 		  UUIDGenerator uuidgenerator = new UUIDGenerator();
 		  uuidgenerator.check(resourceIDtP);
+		}
+		
+		//Check if location exists
+		try {
+			File f = new File(tRt.getTransformJob().getProfiles().getTransformProfile().get(0).getLocation());
+		} catch (Exception e) {
+			e.getMessage();
+			e.printStackTrace();
+			throw new DataException(err.DAT_S_00_0006,"Invalid request parameters","File in location not found");
+		}
+		//Check if destination exists
+		try {
+			File f = new File(tRt.getTransformJob().getProfiles().getTransformProfile().get(0).getTransferAtom().get(0).getDestination());
+			f.isDirectory();
+		} catch (Exception e){
+			throw new DataException(err.DAT_S_00_0006,"Invalid request parameters","Path of directory not found");
 		}
 	}
 	

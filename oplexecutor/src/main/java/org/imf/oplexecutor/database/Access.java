@@ -33,7 +33,7 @@ public class Access {
 		String notifyFault = j.getNotifyFault();
 		
 		try {
-			PreparedStatement posted = con.prepareStatement("INSERT INTO job(resourceID,"
+			PreparedStatement posted = con.prepareStatement("INSERT INTO TransformDatabase.job(resourceID,"
 					+ "priority,status,resourceCreationDate,resourceIDtP,"
 					+ "location,destination,outputFileNamePattern, "
 					+ "oplId, notifyReply, notifyFault) "
@@ -67,13 +67,15 @@ public class Access {
 				j.setStatus(JobStatusType.valueOf(stat));
 				String prio = (rs.getString("priority"));
 				j.setPriority(PriorityType.valueOf(prio));
+				j.setDestination(rs.getString("destination"));
+				j.setOutputFileNamePattern(rs.getString("outputFileNamePattern"));
+				j.setNotifyReply(rs.getString("notifyReply"));
 				String jobStartedTime = (rs.getString("jobStartedTime"));
 				if (jobStartedTime != null) {
 					j.setJobStartedTime(new TransformRequestValidator().setXMLGregorianCalendarFromString(jobStartedTime));}
 				String jobCompletedTime = (rs.getString("jobCompletedTime"));
 				if (jobCompletedTime != null) {
 					j.setJobCompletedTime(new TransformRequestValidator().setXMLGregorianCalendarFromString(jobCompletedTime));}
-				
 				jobList.add(j);
 			}
 		}
@@ -121,5 +123,35 @@ public class Access {
 		}
 			
 		return jobList;
+	}
+	
+	public void updateStatus(Connection con, Job j)
+	{
+		String resourceID = j.getResourceID();
+		String status = j.getStatus().toString();
+		String startedDate = null;
+		String completedDate = null;
+		if (j.getJobStartedTime() != null) {
+			startedDate = j.getJobStartedTime().toString(); } 
+		if (j.getJobCompletedTime() != null) {
+			completedDate = j.getJobCompletedTime().toString(); }
+		
+		try {
+			PreparedStatement posted = con.prepareStatement("UPDATE TransformDatabase.job SET status = '"+status+"', jobStartedTime = '"+startedDate+"', jobCompletedTime = '"+completedDate+"' WHERE resourceID = '"+resourceID+"'");
+			posted.executeUpdate();
+						
+		} catch(Exception e) {
+			System.out.println("Insertfailure" + e.getMessage());
+		}
+	}
+	
+	public void orderQueue(Connection con)
+	{
+		try {
+			PreparedStatement posted = con.prepareStatement("SELECT * FROM TransformDatabase.job ORDER BY FIND_IN_SET(priority, 'LOW,MEDIUM,HIGH,URGENT,IMMEDIATE') DESC, resourceCreationDate ASC");
+			posted.executeUpdate();
+		} catch(Exception e) {
+			System.out.println("Insertfailure" + e.getMessage());
+		}
 	}
 }

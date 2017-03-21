@@ -34,10 +34,11 @@ public class AccessManager {
 		try {
 			Connection con = db.getConnection(); 
 			Access access = new Access();
+			access.orderQueue(con);
 			jobList = access.getJobs(con);
 		} catch (Exception e) {
-			throw new InfrastructureException(err.INF_S_00_0004, "Unable to connect to the database. REST Status: 500 Internal Server Error", e.getMessage());
-		}
+			throw new InfrastructureException(err.INF_S_00_0004, "Unable to connect to the database ", "REST Status: 500 Internal Server Error");
+					}
 		return jobList;
 	}
 	
@@ -50,9 +51,20 @@ public class AccessManager {
 			Access access = new Access();
 			jobList = access.getJob(con, id);
 		} catch (Exception e) {
-			throw new InfrastructureException(err.INF_S_00_0004, "Unable to connect to the database. REST Status: 500 Internal Server Error", e.getMessage());
+			throw new InfrastructureException(err.INF_S_00_0004, "Unable to connect to the database ", "REST Status: 500 Internal Server Error");
 		}
 			
 		return jobList;
+	}
+	
+	public void updateJobStatus(Job j) {
+		Database db = new Database();
+		try {
+			Connection con = db.getConnection();
+			Access access = new Access();
+			access.updateStatus(con, j);
+		} catch (Exception e) {
+			throw new InfrastructureException(err.INF_S_00_0004, "Unable to connect to the database ", "REST Status: 500 Internal Server Error");
+		}
 	}
 }

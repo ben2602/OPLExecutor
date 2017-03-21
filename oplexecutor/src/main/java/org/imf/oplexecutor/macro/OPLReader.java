@@ -22,9 +22,10 @@ public class OPLReader {
 	public Opl getOPLData(String oplpath) {
 		
 		Document doc = null;
-				
+		
+		
 		File f = new File(oplpath);
-				
+		
 		//Starting AssetMapFinder
 		AssetMapFinder amf = new AssetMapFinder(f.getParent());
 		String ampath = amf.find();
@@ -46,20 +47,13 @@ public class OPLReader {
 										
 					Opl o = new Opl(oplId, oplpath, annotation, issueDate, cplId);
 					return o;
-					//Writing Data to Database into opl table
-					//MySQLAccess DB = new MySQLAccess();
-					//DB.post_opl(o);
 					
 		} 
 		catch (Exception e) {
-				// TODO Auto-generated catch block
 				e.printStackTrace();
 				throw new DataException(ErrorCodeType.DAT_S_00_0004, "Missing required service metadata in request.", e.getMessage());
 		}
-		//Starting AssetMapReader
-		/*AssetMapReader amr = new AssetMapReader(ampath);
-		amr.getCplFileName(cplId);
-		*/
+
 	}
 
 	public String getOplId() {

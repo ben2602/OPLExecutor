@@ -13,14 +13,21 @@ import javax.ws.rs.Produces;
 import javax.ws.rs.QueryParam;
 import javax.ws.rs.core.MediaType;
 import javax.ws.rs.core.Response;
+import javax.ws.rs.core.Response.Status;
+import javax.xml.bind.JAXBContext;
 import javax.xml.bind.JAXBElement;
+import javax.xml.bind.JAXBException;
+import javax.xml.bind.Marshaller;
 
 import org.imf.oplexecutor.database.AccessManager;
 import org.imf.oplexecutor.exception.DataException;
 import org.imf.oplexecutor.fims.bms.ErrorCodeType;
+import org.imf.oplexecutor.fims.bms.JobCommandType;
 import org.imf.oplexecutor.fims.bms.JobStatusType;
 import org.imf.oplexecutor.fims.bms.JobType;
 import org.imf.oplexecutor.fims.bms.JobsType;
+import org.imf.oplexecutor.fims.bms.ManageJobRequestType;
+import org.imf.oplexecutor.fims.bms.ManageJobResponseType;
 import org.imf.oplexecutor.fims.bms.PriorityType;
 import org.imf.oplexecutor.fims.bms.QueryJobResponseType;
 import org.imf.oplexecutor.fims.tfms.TransformJobType;
@@ -154,8 +161,11 @@ public class JobService {
 			tJt.setResourceID(j.getResourceID());
 			tJt.setLocation(j.getLocation());
 			tJt.setResourceCreationDate(j.getResourceCreationDate());
+			tJt.setJobStartedTime(j.getJobStartedTime());
+			tJt.setJobCompletedTime(j.getJobCompletedTime());
 			tJt.setStatus(j.getStatus());
 			tJt.setPriority(j.getPriority());
+
 			jobsType.getAny().add(jT);
 		}
 		
@@ -189,6 +199,8 @@ public class JobService {
 			tJt.setResourceID(j.getResourceID());
 			tJt.setLocation(j.getLocation());
 			tJt.setResourceCreationDate(j.getResourceCreationDate());
+			tJt.setJobStartedTime(j.getJobStartedTime());
+			tJt.setJobCompletedTime(j.getJobCompletedTime());
 			tJt.setStatus(j.getStatus());
 			tJt.setPriority(j.getPriority());
 			jobsType.getAny().add(jT);
@@ -196,5 +208,77 @@ public class JobService {
 		
 		qJR.setJobs(jobsType);
 		return qJR;	
+	}
+	
+	@POST
+	@Consumes(MediaType.APPLICATION_XML)
+	@Produces(MediaType.APPLICATION_XML)
+	@Path("/{jobId}/manage")
+	public Response manage(@PathParam("jobId") String jobId, ManageJobRequestType mJRequest) {
+		
+		if (!jobId.contentEquals(mJRequest.getJobID()) || jobId == null || mJRequest.getJobID() == null) {
+			throw new DataException(ErrorCodeType.DAT_S_00_0006,"Invalid request paramenters","jobID's must be equal");
+		}
+		
+		ArrayList<Job> jobList = new ArrayList<Job>();
+		
+		try {
+			jobList = new AccessManager().getSingleJob(jobId);
+		}
+		catch (Exception e)
+		{
+			e.printStackTrace();
+		}
+		
+		switch (mJRequest.getJobCommand()) {
+		
+			case CANCEL: 	jobList.get(0).setStatus(JobStatusType.CANCELED);
+							break;
+							
+			case PAUSE:		jobList.get(0).setStatus(JobStatusType.PAUSED);
+							break;
+							
+			case RESUME:	jobList.get(0).setStatus(JobStatusType.QUEUED);
+							break;
+							
+			case RESTART:	jobList.get(0).setStatus(JobStatusType.QUEUED);
+							jobList.get(0).setJobStartedTime(null);
+							jobList.get(0).setJobCompletedTime(null);
+							break;
+							
+			case STOP:		jobList.get(0).setStatus(JobStatusType.STOPPED);
+							break;
+							
+			case CLEANUP: throw new DataException(ErrorCodeType.DAT_S_00_0007,"Job Command not supported, yet","Non supported Job Command");
+							
+			case MODIFY_PRIORITY:
+							jobList.get(0).setPriority(mJRequest.getPriority());
+				
+			default:
+				throw new DataException(ErrorCodeType.DAT_S_00_0007, "Job Command not valid", "Try cancel, pause, resume, restart or stop");
+		}
+		
+		Job job = new Job();
+		job = jobList.get(0);
+		AccessManager am = new AccessManager();
+		am.updateJobStatus(job);
+		
+		ManageJobResponseType mJResponse = new ManageJobResponseType();
+		
+		for (Job j: jobList)
+		{
+			TransformJobType tJt = new TransformJobType();
+			tJt.setResourceID(j.getResourceID());
+			tJt.setLocation(j.getLocation());
+			tJt.setResourceCreationDate(j.getResourceCreationDate());
+			tJt.setJobStartedTime(j.getJobStartedTime());
+			tJt.setJobCompletedTime(j.getJobCompletedTime());
+			tJt.setStatus(j.getStatus());
+			tJt.setPriority(j.getPriority());
+			mJResponse.setJob(tJt);
+		}
+		
+		return Response.status(Status.OK).entity(mJResponse).build();
+		
 	}
 }

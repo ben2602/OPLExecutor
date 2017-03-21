@@ -34,6 +34,11 @@ public class GenericExceptionMapper implements ExceptionMapper<Throwable> {
 			stat = Status.BAD_REQUEST;
 			break;
 			
+		case "HTTP 415 Unsupported Media Type":
+			err = ErrorCodeType.DAT_S_00_0021;
+			description = "Unsupported Media Type";
+			stat = Status.UNSUPPORTED_MEDIA_TYPE;
+			
 		default: 
 			err = ErrorCodeType.DAT_S_00_0003;
 			description = ex.getMessage();
